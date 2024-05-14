@@ -22,13 +22,31 @@ function showChart(data) {
 
   drawAgeAxis(svg.append("g"), ageScale);
   drawRating(svg.append("g"), ageScale, data);
+
+  drawAgeAxisTitle(svg);
+  drawRatingAxisTitle(svg);
 }
 
-/////////////////////////////////////////////////////////////////////
+// Title ///////////////////////////////////////////////////////////////////
+
+function drawAgeAxisTitle(root) {
+  root
+    .append("text")
+    .text("Age")
+    .attr("text-anchor", "end")
+    .attr("x", chartWidth + 20)
+    .attr("y", chartHeight + 30);
+}
+
+function drawRatingAxisTitle(root) {
+  root.append("text").text("Rating").attr("text-anchor", "end").attr("y", -20);
+}
+
+// Age /////////////////////////////////////////////////////////////////////
 
 function drawAgeAxis(root, ageScale) {
   const ageAxis = d3.axisBottom(ageScale);
-  root.call(ageAxis).attr("transform", `translate(0, ${chartHeight})`);
+  root.attr("transform", `translate(0, ${chartHeight})`).call(ageAxis);
 }
 
 function getAgeScale(data) {
@@ -38,7 +56,7 @@ function getAgeScale(data) {
     .range([0, chartWidth]);
 }
 
-/////////////////////////////////////////////////////////////////////
+// Utility /////////////////////////////////////////////////////////////////
 
 function convertStringDataToFloat(data) {
   return data.map(convertStringToFloat);
