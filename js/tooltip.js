@@ -1,43 +1,44 @@
-import { ageIndex, ratingIndex } from "./tooltip/columnIndex.js";
+import {
+  ageIndex,
+  ratingIndex,
+  chartWidth,
+  chartHeight,
+  chartMargin,
+} from "./tooltip/constant.js";
 import { drawRating } from "./tooltip/rating.js";
-
-const width = 700;
-const height = 400;
-const margin = 50;
 
 const svg = d3
   .select("body")
   .append("svg")
-  .attr("width", width + margin * 2)
-  .attr("height", height + margin * 2)
+  .attr("width", chartWidth + chartMargin * 2)
+  .attr("height", chartHeight + chartMargin * 2)
   .append("g")
-  .attr("transform", `translate(${margin}, ${margin})`);
+  .attr("transform", `translate(${chartMargin}, ${chartMargin})`);
 
 d3.csv("/data/sample.csv").then(convertStringDataToFloat).then(showChart);
 
 function showChart(data) {
-  // Draw age
-  const ageScale = d3
+  const ageScale = getAgeScale(data);
+
+  drawAgeAxis(svg.append("g"), ageScale);
+  drawRating(svg.append("g"), ageScale, data);
+}
+
+/////////////////////////////////////////////////////////////////////
+
+function drawAgeAxis(root, ageScale) {
+  const ageAxis = d3.axisBottom(ageScale);
+  root.call(ageAxis).attr("transform", `translate(0, ${chartHeight})`);
+}
+
+function getAgeScale(data) {
+  return d3
     .scaleBand()
     .domain(startAndEndToRange(d3.extent(data.map((d) => d[ageIndex]))))
-    .range([0, width]);
-  const ageAxis = d3.axisBottom(ageScale);
-  svg.append("g").call(ageAxis).attr("transform", `translate(0, ${height})`);
-
-  // Draw other
-  const root = svg.append("g").selectAll("g").data(data).enter();
-
-  const ratingExtent = d3.extent(data.map((d) => d[ratingIndex]));
-  const ratingGap = (ratingExtent[1] - ratingExtent[0]) / 2;
-  drawRating(
-    ratingExtent[1] + ratingGap,
-    ratingExtent[0] - ratingGap,
-    height,
-    svg,
-    root,
-    ageScale
-  );
+    .range([0, chartWidth]);
 }
+
+/////////////////////////////////////////////////////////////////////
 
 function convertStringDataToFloat(data) {
   return data.map(convertStringToFloat);
