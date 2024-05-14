@@ -5,6 +5,7 @@ import {
   chartHeight,
   chartMargin,
   salaryIndex,
+  teamIndex,
 } from "./tooltip/constant.js";
 import { drawRating } from "./tooltip/rating.js";
 import { drawSalary } from "./tooltip/salary.js";
@@ -22,7 +23,7 @@ d3.csv("/data/sample.csv").then(convertStringDataToFloat).then(showChart);
 function showChart(data) {
   const ageScale = getAgeScale(data);
 
-  drawAgeAxis(svg.append("g"), ageScale);
+  drawAgeAxis(svg.append("g"), ageScale, data);
   drawSalary(svg.append("g"), ageScale, data);
   drawRating(svg.append("g"), ageScale, data);
 
@@ -57,9 +58,39 @@ function drawSalaryAxisTitle(root) {
 
 // Age /////////////////////////////////////////////////////////////////////
 
-function drawAgeAxis(root, ageScale) {
-  const ageAxis = d3.axisBottom(ageScale);
-  root.attr("transform", `translate(0, ${chartHeight})`).call(ageAxis);
+function drawTeamAxis(root, data) {
+  const teamScale = d3
+    .scaleBand()
+    .domain(data.map((d) => `${d[ageIndex]}<br>${d[teamIndex]}`))
+    .range([0, chartWidth])
+    .padding(0.2)
+    .paddingInner(0.2);
+
+  const teamAxis = d3.axisBottom(teamScale);
+  root.attr("transform", `translate(0, ${chartHeight})`).call(teamAxis);
+}
+
+function drawAgeAxis(root, ageScale, data) {
+  const ageAxis = root
+    .attr("transform", `translate(0, ${chartHeight})`)
+    .call(d3.axisBottom(ageScale));
+
+  // Render teams under age label
+  const teams = [...data.map((d) => d[teamIndex])];
+  const filledTeams = [
+    ...teams.slice(0, 1),
+    "",
+    ...teams.slice(1, teams.length),
+  ];
+
+  ageAxis.selectAll("text").each(function (_, i) {
+    d3.select(this.parentNode)
+      .append("text")
+      .attr("x", 0)
+      .attr("y", 30)
+      .attr("fill", "currentColor")
+      .text((_) => filledTeams[i]);
+  });
 }
 
 function getAgeScale(data) {
