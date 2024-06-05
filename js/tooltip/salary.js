@@ -1,4 +1,4 @@
-import { ageIndex, salaryIndex, chartHeight, chartWidth } from "./constant.js";
+import { ageIndex, salaryIndex, chartHeight, chartWidth } from "../constant.js";
 
 export const drawSalary = (root, ageScale, data) => {
   const salaryScale = d3

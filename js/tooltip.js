@@ -6,7 +6,7 @@ import {
   chartMargin,
   salaryIndex,
   teamIndex,
-} from "./tooltip/constant.js";
+} from "./constant.js";
 import { drawRating } from "./tooltip/rating.js";
 import { drawSalary } from "./tooltip/salary.js";
 

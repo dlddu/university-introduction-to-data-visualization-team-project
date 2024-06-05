@@ -1,4 +1,4 @@
-import { ageIndex, ratingIndex, chartHeight } from "./constant.js";
+import { ageIndex, ratingIndex, chartHeight } from "../constant.js";
 
 export const drawRating = (root, ageScale, data) => {
   const ratingScale = getScale(data);

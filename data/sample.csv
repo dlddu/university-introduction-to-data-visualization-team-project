@@ -4,3 +4,23 @@ ID,Name,Age,Rating,Salary,Team,Position
 1,Heung-min Son,28,7.27,7280000,Tottenham,Left Wing
 1,Heung-min Son,29,7.52,9880000,Tottenham,Left Wing
 1,Heung-min Son,30,6.95,9880000,Tottenham,Left Wing
+2,Harry Kane,23,7.50,500000,Tottenham,Striker
+2,Harry Kane,25,7.70,1500000,Tottenham,Striker
+2,Harry Kane,27,7.80,2500000,Tottenham,Striker
+2,Harry Kane,29,8.00,4000000,Tottenham,Striker
+2,Harry Kane,30,8.10,4500000,Tottenham,Striker
+3,Kevin De Bruyne,25,7.90,3000000,Manchester City,Midfielder
+3,Kevin De Bruyne,27,8.20,3500000,Manchester City,Midfielder
+3,Kevin De Bruyne,29,8.40,4000000,Manchester City,Midfielder
+3,Kevin De Bruyne,30,8.50,4500000,Manchester City,Midfielder
+3,Kevin De Bruyne,31,8.60,5000000,Manchester City,Midfielder
+4,Mohamed Salah,24,7.30,2000000,Liverpool,Right Wing
+4,Mohamed Salah,26,7.60,2500000,Liverpool,Right Wing
+4,Mohamed Salah,28,7.80,3000000,Liverpool,Right Wing
+4,Mohamed Salah,29,8.00,3500000,Liverpool,Right Wing
+4,Mohamed Salah,30,8.20,4000000,Liverpool,Right Wing
+5,Virgil van Dijk,25,7.20,1500000,Liverpool,Center Back
+5,Virgil van Dijk,27,7.50,2000000,Liverpool,Center Back
+5,Virgil van Dijk,28,7.70,2500000,Liverpool,Center Back
+5,Virgil van Dijk,29,7.90,3000000,Liverpool,Center Back
+5,Virgil van Dijk,30,8.00,3500000,Liverpool,Center Back
