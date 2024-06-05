@@ -1,36 +1,29 @@
 import {
+  idIndex,
   ageIndex,
   ratingIndex,
-  chartWidth,
-  chartHeight,
-  chartMargin,
+  tooltipWidth,
+  tooltipHeight,
   salaryIndex,
   teamIndex,
 } from "./constant.js";
 import { drawRating } from "./tooltip/rating.js";
 import { drawSalary } from "./tooltip/salary.js";
 
-const svg = d3
-  .select("body")
-  .append("svg")
-  .attr("width", chartWidth + chartMargin * 4)
-  .attr("height", chartHeight + chartMargin * 2)
-  .append("g")
-  .attr("transform", `translate(${chartMargin}, ${chartMargin})`);
+const loadData = d3.csv("/data/sample.csv").then(convertStringDataToFloat);
 
-d3.csv("/data/sample.csv").then(convertStringDataToFloat).then(showChart);
-
-function showChart(data) {
+export const showTooltip = async (root, playerId) => {
+  const data = (await loadData).filter((d) => d[idIndex] === playerId);
   const ageScale = getAgeScale(data);
 
-  drawAgeAxis(svg.append("g"), ageScale, data);
-  drawSalary(svg.append("g"), ageScale, data);
-  drawRating(svg.append("g"), ageScale, data);
+  drawAgeAxis(root.append("g"), ageScale, data);
+  drawSalary(root.append("g"), ageScale, data);
+  drawRating(root.append("g"), ageScale, data);
 
-  drawAgeAxisTitle(svg);
-  drawRatingAxisTitle(svg);
-  drawSalaryAxisTitle(svg);
-}
+  drawAgeAxisTitle(root);
+  drawRatingAxisTitle(root);
+  drawSalaryAxisTitle(root);
+};
 
 // Title ///////////////////////////////////////////////////////////////////
 
@@ -39,8 +32,8 @@ function drawAgeAxisTitle(root) {
     .append("text")
     .text("Age")
     .attr("text-anchor", "end")
-    .attr("x", chartWidth + 20)
-    .attr("y", chartHeight + 30);
+    .attr("x", tooltipWidth + 20)
+    .attr("y", tooltipHeight + 30);
 }
 
 function drawRatingAxisTitle(root) {
@@ -52,7 +45,7 @@ function drawSalaryAxisTitle(root) {
     .append("text")
     .text("Salary")
     .attr("text-anchor", "end")
-    .attr("x", chartWidth + 50)
+    .attr("x", tooltipWidth + 50)
     .attr("y", -20);
 }
 
@@ -62,17 +55,17 @@ function drawTeamAxis(root, data) {
   const teamScale = d3
     .scaleBand()
     .domain(data.map((d) => `${d[ageIndex]}<br>${d[teamIndex]}`))
-    .range([0, chartWidth])
+    .range([0, tooltipWidth])
     .padding(0.2)
     .paddingInner(0.2);
 
   const teamAxis = d3.axisBottom(teamScale);
-  root.attr("transform", `translate(0, ${chartHeight})`).call(teamAxis);
+  root.attr("transform", `translate(0, ${tooltipHeight})`).call(teamAxis);
 }
 
 function drawAgeAxis(root, ageScale, data) {
   const ageAxis = root
-    .attr("transform", `translate(0, ${chartHeight})`)
+    .attr("transform", `translate(0, ${tooltipHeight})`)
     .call(d3.axisBottom(ageScale));
 
   // Render teams under age label
@@ -97,12 +90,12 @@ function getAgeScale(data) {
   return d3
     .scaleBand()
     .domain(startAndEndToRange(d3.extent(data.map((d) => d[ageIndex]))))
-    .range([0, chartWidth])
+    .range([0, tooltipWidth])
     .padding(0.2)
     .paddingInner(0.2);
 }
 
-// Utility /////////////////////////////////////////////////////////////////
+// Preprocess data /////////////////////////////////////////////////////////////////
 
 function convertStringDataToFloat(data) {
   return data.map(convertStringToFloat);
@@ -117,6 +110,8 @@ function convertStringToFloat(row) {
   copy[salaryIndex] = parseInt(row[salaryIndex]);
   return copy;
 }
+
+// Utility /////////////////////////////////////////////////////////////////
 
 function startAndEndToRange([start, end]) {
   return Array(end - start + 1)

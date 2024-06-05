@@ -1,4 +1,4 @@
-import { ageIndex, ratingIndex, chartHeight } from "../constant.js";
+import { ageIndex, ratingIndex, tooltipHeight } from "../constant.js";
 
 export const drawRating = (root, ageScale, data) => {
   const ratingScale = getScale(data);
@@ -42,5 +42,5 @@ function getScale(data) {
   const domain = [maximumRatingRange, minimumRatingRange];
 
   // Set scale
-  return d3.scaleLinear().domain(domain).range([0, chartHeight]);
+  return d3.scaleLinear().domain(domain).range([0, tooltipHeight]);
 }
