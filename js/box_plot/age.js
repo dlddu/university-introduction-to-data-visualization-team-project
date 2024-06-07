@@ -1,14 +1,14 @@
 import {
   idIndex,
-  ratingIndex,
   tooltipWidth,
   tooltipHeight,
   tooltipMargin,
   teamIndex,
+  ageIndex,
 } from "../constant.js";
 import { showTooltip as drawTooltip } from "../tooltip.js";
 
-export const drawRating = (root, teamScale, ratingScale, data) => {
+export const drawAge = (root, teamScale, ageScale, data) => {
   // Draw dots
   const circles = root
     .append("g")
@@ -17,7 +17,7 @@ export const drawRating = (root, teamScale, ratingScale, data) => {
     .enter()
     .append("circle")
     .attr("r", 7)
-    .attr("cx", (d) => ratingScale(d[ratingIndex]))
+    .attr("cx", (d) => ageScale(d[ageIndex]) + ageScale.bandwidth() / 2)
     .attr("cy", (d) => teamScale(d[teamIndex]) + teamScale.bandwidth() / 2);
 
   // Draw tooltip

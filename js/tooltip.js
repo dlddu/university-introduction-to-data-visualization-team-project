@@ -1,5 +1,6 @@
 import {
   idIndex,
+  nameIndex,
   ageIndex,
   ratingIndex,
   tooltipWidth,
@@ -23,6 +24,7 @@ export const showTooltip = async (root, playerId) => {
   drawAgeAxisTitle(root);
   drawRatingAxisTitle(root);
   drawSalaryAxisTitle(root);
+  drawPlayerName(root, data[0][nameIndex]);
 };
 
 // Title ///////////////////////////////////////////////////////////////////
@@ -46,6 +48,15 @@ function drawSalaryAxisTitle(root) {
     .text("Salary")
     .attr("text-anchor", "end")
     .attr("x", tooltipWidth + 50)
+    .attr("y", -20);
+}
+
+function drawPlayerName(root, name) {
+  root
+    .append("text")
+    .text(name)
+    .attr("text-anchor", "start")
+    .attr("x", tooltipWidth / 2)
     .attr("y", -20);
 }
 

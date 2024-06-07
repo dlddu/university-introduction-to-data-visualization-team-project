@@ -6,8 +6,9 @@ import {
   chartMargin,
   salaryIndex,
   teamIndex,
+  yearIndex,
 } from "./constant.js";
-import { drawRating } from "./box_plot/rating.js";
+import { drawAge } from "./box_plot/age.js";
 
 const svg = d3
   .select("body")
@@ -15,29 +16,32 @@ const svg = d3
   .attr("width", chartWidth + chartMargin * 4)
   .attr("height", chartHeight + chartMargin * 2)
   .append("g")
-  .attr("transform", `translate(${chartMargin}, ${chartMargin})`);
+  .attr("transform", `translate(${chartMargin * 2}, ${chartMargin})`);
 
-d3.csv("/data/sample.csv").then(convertStringDataToFloat).then(showChart);
+const loadData = d3.csv("/data/sample.csv").then(convertStringDataToFloat);
 
-function showChart(data) {
-  const ratingScale = getRatingScale();
+showChart(await loadData, 2022);
+
+function showChart(loadData, year) {
+  const data = loadData.filter((row) => row[yearIndex] == year);
+  const ageScale = getAgeScale(data);
   const teamScale = getTeamScale(data);
 
-  drawRatingAxis(svg.append("g"), ratingScale);
+  drawAgeAxis(svg.append("g"), ageScale);
   drawTeamAxis(svg.append("g"), teamScale);
 
-  drawRating(svg.append("g"), teamScale, ratingScale, data);
+  drawAge(svg.append("g"), teamScale, ageScale, data);
 
-  drawRatingAxisTitle(svg);
+  drawAgeAxisTitle(svg);
   drawTeamAxisTitle(svg);
 }
 
 // Title ///////////////////////////////////////////////////////////////////
 
-function drawRatingAxisTitle(root) {
+function drawAgeAxisTitle(root) {
   root
     .append("text")
-    .text("Rating")
+    .text("Age")
     .attr("text-anchor", "end")
     .attr("x", chartWidth + 20)
     .attr("y", chartHeight + 40);
@@ -48,14 +52,17 @@ function drawTeamAxisTitle(root) {
     .append("text")
     .text("Team")
     .attr("text-anchor", "end")
-    .attr("x", chartWidth / 2)
+    .attr("x", 5)
     .attr("y", -20);
 }
 
 // Axis /////////////////////////////////////////////////////////////////////
 
-function getRatingScale() {
-  return d3.scaleLinear().domain([0, 10]).range([0, chartWidth]);
+function getAgeScale(data) {
+  return d3
+    .scaleBand()
+    .domain(startAndEndToRange(d3.extent(data.map((d) => d[ageIndex]))))
+    .range([0, chartWidth]);
 }
 
 function getTeamScale(data) {
@@ -67,34 +74,37 @@ function getTeamScale(data) {
     .paddingInner(0.2);
 }
 
-function drawRatingAxis(root, ratingScale) {
+function drawAgeAxis(root, ageScale) {
   root
     .attr("transform", `translate(0, ${chartHeight})`)
-    .call(d3.axisBottom(ratingScale));
+    .call(d3.axisBottom(ageScale));
 }
 
 function drawTeamAxis(root, teamScale) {
-  root
-    .attr("transform", `translate(${chartWidth / 2}, 0)`)
-    .call(d3.axisLeft(teamScale));
+  root.attr("transform", `0, 0)`).call(d3.axisLeft(teamScale));
 }
 
 // Preprocess data /////////////////////////////////////////////////////////////////
 
 function convertStringDataToFloat(data) {
-  const targetYear = 25;
-
-  return data
-    .map(convertStringToFloat)
-    .filter((row) => row[ageIndex] == targetYear);
+  return data.map(convertStringToFloat);
 }
 
 function convertStringToFloat(row) {
   const copy = {
     ...row,
   };
+  copy[yearIndex] = parseInt(row[yearIndex]);
   copy[ageIndex] = parseInt(row[ageIndex]);
   copy[ratingIndex] = parseFloat(row[ratingIndex]);
   copy[salaryIndex] = parseInt(row[salaryIndex]);
   return copy;
+}
+
+// Utility /////////////////////////////////////////////////////////////////
+
+function startAndEndToRange([start, end]) {
+  return Array(end - start + 1)
+    .fill(start)
+    .map((value, i) => value + i);
 }

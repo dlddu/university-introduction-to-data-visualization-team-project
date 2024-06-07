@@ -1,4 +1,6 @@
 export const idIndex = "ID";
+export const nameIndex = "Name";
+export const yearIndex = "Year";
 export const ageIndex = "Age";
 export const ratingIndex = "Rating";
 export const salaryIndex = "Salary";
