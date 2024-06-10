@@ -79,9 +79,10 @@ function getTeamScale(data) {
 }
 
 function drawAgeAxis(root, ageScale) {
+  const domain = ageScale.domain();
   root
     .attr("transform", `translate(0, ${chartHeight})`)
-    .call(d3.axisBottom(ageScale));
+    .call(d3.axisBottom(ageScale).ticks(domain[1] - domain[0]));
 }
 
 function drawTeamAxis(root, teamScale) {
