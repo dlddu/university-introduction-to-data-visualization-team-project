@@ -99,12 +99,12 @@ function getTeamScale(data) {
 
 function drawAgeAxis(root, ageScale) {
   const domain = ageScale.domain();
-  const ageAxis = root.attr("transform", `translate(0, ${chartHeight})`).call(
-    d3
-      .axisBottom(ageScale)
-      .ticks(domain[1] - domain[0])
-      .tickSizeInner(-chartHeight)
-  );
+  let ticks = domain[1] - domain[0];
+  while (ticks > 20) ticks = ticks / 2;
+  console.log(ticks);
+  const ageAxis = root
+    .attr("transform", `translate(0, ${chartHeight})`)
+    .call(d3.axisBottom(ageScale).ticks(ticks).tickSizeInner(-chartHeight));
   ageAxis.selectAll("path").style("stroke", "#EEEEEE");
   ageAxis.selectAll("line").style("stroke", "#EEEEEE");
   ageAxis.selectAll("text").style("color", "#777777");
@@ -114,7 +114,7 @@ function drawTeamAxis(root, teamScale) {
   const teamAxis = root
     .attr("transform", `0, 0)`)
     .call(d3.axisLeft(teamScale).tickSizeInner(-chartWidth));
-  teamAxis.selectAll("path").style("stroke", "#EEEEEE");
+  teamAxis.selectAll("path").style("stroke", "transparent");
   teamAxis.selectAll("line").style("stroke", "#EEEEEE");
 }
 
