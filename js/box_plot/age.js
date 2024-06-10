@@ -5,6 +5,8 @@ import {
   tooltipMargin,
   teamIndex,
   ageIndex,
+  positionIndex,
+  positionToColor,
 } from "../constant.js";
 import { showTooltip as drawTooltip } from "../tooltip.js";
 
@@ -18,7 +20,8 @@ export const drawAge = (root, teamScale, ageScale, data) => {
     .append("circle")
     .attr("r", 7)
     .attr("cx", (d) => ageScale(d[ageIndex]) + ageScale.bandwidth() / 2)
-    .attr("cy", (d) => teamScale(d[teamIndex]) + teamScale.bandwidth() / 2);
+    .attr("cy", (d) => teamScale(d[teamIndex]) + teamScale.bandwidth() / 2)
+    .attr("fill", (d) => positionToColor[d[positionIndex]]);
 
   // Draw tooltip
   circles
