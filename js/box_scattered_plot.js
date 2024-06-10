@@ -59,9 +59,13 @@ function drawTeamAxisTitle(root) {
 // Axis /////////////////////////////////////////////////////////////////////
 
 function getAgeScale(data) {
+  const extent = d3.extent(data.map((d) => d[ageIndex]));
+  const gap = extent[1] - extent[0];
+  const padding = Math.ceil(gap * 0.03);
+
   return d3
-    .scaleBand()
-    .domain(startAndEndToRange(d3.extent(data.map((d) => d[ageIndex]))))
+    .scaleLinear()
+    .domain([extent[0] - padding, extent[1] + padding])
     .range([0, chartWidth]);
 }
 
@@ -99,12 +103,4 @@ function convertStringToFloat(row) {
   copy[ratingIndex] = parseFloat(row[ratingIndex]);
   copy[salaryIndex] = parseInt(row[salaryIndex]);
   return copy;
-}
-
-// Utility /////////////////////////////////////////////////////////////////
-
-function startAndEndToRange([start, end]) {
-  return Array(end - start + 1)
-    .fill(start)
-    .map((value, i) => value + i);
 }

@@ -19,7 +19,7 @@ export const drawPlayer = (root, teamScale, ageScale, data) => {
     .enter()
     .append("circle")
     .attr("r", 7)
-    .attr("cx", (d) => ageScale(d[ageIndex]) + ageScale.bandwidth() / 2)
+    .attr("cx", (d) => ageScale(d[ageIndex]))
     .attr("cy", (d) => teamScale(d[teamIndex]) + teamScale.bandwidth() / 2)
     .attr("fill", (d) => positionToColor[d[positionIndex]]);
 
