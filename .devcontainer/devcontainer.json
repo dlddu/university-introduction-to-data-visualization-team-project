@@ -8,7 +8,8 @@
 		"vscode": {
 			"extensions": [
 				"esbenp.prettier-vscode",
-				"ms-vscode.live-server"
+				"ms-vscode.live-server",
+				"donjayamanne.githistory"
 			]
 		}
 	}
