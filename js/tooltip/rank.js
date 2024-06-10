@@ -11,7 +11,7 @@ function statMetadataObject(statPicker, color, ranker) {
 const statMetadata = {
   "Goals/Shot": statMetadataObject(
     (standardRow, defenseRow, passingRow, shootingRow) =>
-      shootingRow["G/Sh"] == "" ? 0 : parseFloat(shootingRow["G/Sh"]),
+      parseCsvFloat(shootingRow["G/Sh"]),
     "#00BFFF",
     (value) => {
       if (value >= 0.11) return 1;
@@ -27,7 +27,7 @@ const statMetadata = {
   ),
   "Shot on Target %": statMetadataObject(
     (standardRow, defenseRow, passingRow, shootingRow) => [
-      shootingRow["SoT%"] == "" ? 0 : parseFloat(shootingRow["SoT%"]) / 100,
+      parseCsvFloat(shootingRow["SoT%"]) / 100,
       standardRow[positionIndex].split(",")[0],
     ],
     "#DC143C",
@@ -57,7 +57,7 @@ const statMetadata = {
   ),
   "Goals/Shot on Target": statMetadataObject(
     (standardRow, defenseRow, passingRow, shootingRow) =>
-      shootingRow["G/SoT"] == "" ? 0 : parseFloat(shootingRow["G/SoT"]),
+      parseCsvFloat(shootingRow["G/SoT"]),
     "#32CD32",
     (value) => {
       if (value >= 0.495) return 1;
@@ -71,12 +71,61 @@ const statMetadata = {
       return 9;
     }
   ),
+  "Assists/Matches Played": statMetadataObject(
+    (standardRow, defenseRow, passingRow, shootingRow) => {
+      const assists = parseCsvFloat(standardRow["Ast"]);
+      const matchesPlayed = parseCsvFloat(standardRow["MP"]);
+      return [
+        assists / matchesPlayed,
+        standardRow[positionIndex].split(",")[0],
+      ];
+    },
+    "#FFD700",
+    ([value, position]) => {
+      if (position == "FW") {
+        if (value >= 0.196) return 1;
+        if (value >= 0.185) return 2;
+        if (value >= 0.175) return 3;
+        if (value >= 0.164) return 4;
+        if (value >= 0.154) return 5;
+        if (value >= 0.143) return 6;
+        if (value >= 0.133) return 7;
+        if (value >= 0.012) return 8;
+        return 9;
+      } else {
+        if (value >= 0.065) return 1;
+        if (value >= 0.06) return 2;
+        if (value >= 0.056) return 3;
+        if (value >= 0.051) return 4;
+        if (value >= 0.047) return 5;
+        if (value >= 0.042) return 6;
+        if (value >= 0.038) return 7;
+        if (value >= 0.033) return 8;
+        return 9;
+      }
+    }
+  ),
 };
 
 const positionToStat = {
-  FW: ["Goals/Shot", "Shot on Target %", "Goals/Shot on Target"],
-  MF: ["Goals/Shot", "Shot on Target %", "Goals/Shot on Target"],
-  DF: ["Goals/Shot", "Shot on Target %", "Goals/Shot on Target"],
+  FW: [
+    "Goals/Shot",
+    "Shot on Target %",
+    "Goals/Shot on Target",
+    "Assists/Matches Played",
+  ],
+  MF: [
+    "Goals/Shot",
+    "Shot on Target %",
+    "Goals/Shot on Target",
+    "Assists/Matches Played",
+  ],
+  DF: [
+    "Goals/Shot",
+    "Shot on Target %",
+    "Goals/Shot on Target",
+    "Assists/Matches Played",
+  ],
   GK: ["Goals/Shot", "Goals/Shot on Target"],
 };
 
@@ -192,4 +241,8 @@ function getLine(
 
 function getScale() {
   return d3.scaleLinear().domain([1, 9]).range([0, tooltipHeight]);
+}
+
+function parseCsvFloat(value) {
+  return value == "" ? 0 : parseFloat(value);
 }
