@@ -8,9 +8,9 @@ import {
   positionIndex,
   positionToColor,
 } from "../constant.js";
-import { showTooltip as drawTooltip } from "../tooltip.js";
+import { showTooltip } from "../tooltip.js";
 
-export const drawAge = (root, teamScale, ageScale, data) => {
+export const drawPlayer = (root, teamScale, ageScale, data) => {
   // Draw dots
   const circles = root
     .append("g")
@@ -35,7 +35,7 @@ export const drawAge = (root, teamScale, ageScale, data) => {
         .append("g")
         .attr("transform", `translate(${tooltipMargin}, ${tooltipMargin})`);
 
-      drawTooltip(tooltipRoot, d[idIndex]);
+      showTooltip(tooltipRoot, d[idIndex]);
     })
     .on("mousemove", (event) => {
       d3.select("#tooltip")

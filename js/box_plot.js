@@ -8,7 +8,7 @@ import {
   teamIndex,
   yearIndex,
 } from "./constant.js";
-import { drawAge } from "./box_plot/age.js";
+import { drawPlayer } from "./box_plot/player.js";
 
 const svg = d3
   .select("body")
@@ -30,7 +30,7 @@ function showChart(loadData, year) {
   drawAgeAxis(svg.append("g"), ageScale);
   drawTeamAxis(svg.append("g"), teamScale);
 
-  drawAge(svg.append("g"), teamScale, ageScale, data);
+  drawPlayer(svg.append("g"), teamScale, ageScale, data);
 
   drawAgeAxisTitle(svg);
   drawTeamAxisTitle(svg);
