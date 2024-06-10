@@ -25,13 +25,13 @@ const statMetadata = {
       return 9;
     }
   ),
-  "Goals/Shot on Target": statMetadataObject(
-    (standardRow, defenseRow, passingRow, shootingRow) => (
-      shootingRow["G/Sot"] == "" ? 0 : parseFloat(shootingRow["G/Sot"]),
-      standardRow[positionIndex]
-    ),
+  "Shot on Target %": statMetadataObject(
+    (standardRow, defenseRow, passingRow, shootingRow) => [
+      shootingRow["SoT%"] == "" ? 0 : parseFloat(shootingRow["SoT%"]) / 100,
+      standardRow[positionIndex].split(",")[0],
+    ],
     "#DC143C",
-    (value, position) => {
+    ([value, position]) => {
       if (position == "FW" || position == "MF") {
         if (value >= 0.495) return 1;
         if (value >= 0.485) return 2;
@@ -55,13 +55,29 @@ const statMetadata = {
       }
     }
   ),
+  "Goals/Shot on Target": statMetadataObject(
+    (standardRow, defenseRow, passingRow, shootingRow) =>
+      shootingRow["G/SoT"] == "" ? 0 : parseFloat(shootingRow["G/SoT"]),
+    "#32CD32",
+    (value) => {
+      if (value >= 0.495) return 1;
+      if (value >= 0.485) return 2;
+      if (value >= 0.475) return 3;
+      if (value >= 0.465) return 4;
+      if (value >= 0.455) return 5;
+      if (value >= 0.445) return 6;
+      if (value >= 0.435) return 7;
+      if (value >= 0.425) return 8;
+      return 9;
+    }
+  ),
 };
 
 const positionToStat = {
-  FW: ["Goals/Shot", "Goals/Shot on Target"],
-  MF: ["Goals/Shot", "Goals/Shot on Target"],
-  DF: ["Goals/Shot", "Goals/Shot on Target"],
-  GK: ["Goals/Shot"],
+  FW: ["Goals/Shot", "Shot on Target %", "Goals/Shot on Target"],
+  MF: ["Goals/Shot", "Shot on Target %", "Goals/Shot on Target"],
+  DF: ["Goals/Shot", "Shot on Target %", "Goals/Shot on Target"],
+  GK: ["Goals/Shot", "Goals/Shot on Target"],
 };
 
 export const drawRank = (
@@ -147,8 +163,14 @@ function drawLegend(root, statScale) {
 
   legendAxis
     .selectAll(".label")
-    .attr("transform", `translate(25, 12.5)`)
-    .attr("style", null);
+    .attr("transform", `translate(20, 10)`)
+    .attr("style", null)
+    .style("font-size", "12px");
+
+  legendAxis
+    .selectAll(".swatch")
+    .style("width", "12px")
+    .style("height", "12px");
 }
 
 function getLine(
