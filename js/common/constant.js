@@ -15,16 +15,6 @@ export const tooltipWidth = 400;
 export const tooltipHeight = 250;
 export const tooltipMargin = 50;
 
-export const positionToColor = {
-  GK: "#316f1d",
-  // ----------------
-  FW: "#0b224c",
-  // ----------------
-  DF: "#f2c43c",
-  // ----------------
-  MF: "#df5e26",
-};
-
 export const boxScatteredPlotCircleRadius = 7;
 
 export const yearToSeason = {

@@ -1,6 +1,27 @@
+import { ageIndex, teamIndex } from "../common/constant.js";
 import { boxScatteredPlotCircleRadius } from "../common/constant.js";
 
-export const drawBoxPlot = (root, data, ageScale, teamScale, team) => {
+export const drawBoxPlot = (root, data, ageScale, teamScale) => {
+  Array.from(new Set(data.map((d) => d[teamIndex]))).forEach((team) => {
+    {
+      const ages = Array.from(
+        new Set(
+          data.filter((d) => d[teamIndex] == team).map((d) => d[ageIndex])
+        )
+      );
+      if (ages.length < 5) return;
+      drawBox(
+        root.append("g"),
+        data.filter((d) => d[teamIndex] == team).map((d) => d[ageIndex]),
+        ageScale,
+        teamScale,
+        team
+      );
+    }
+  });
+};
+
+function drawBox(root, data, ageScale, teamScale, team) {
   const q1 = d3.quantile(data.sort(d3.ascending), 0.25);
   const median = d3.quantile(data.sort(d3.ascending), 0.5);
   const q3 = d3.quantile(data.sort(d3.ascending), 0.75);
@@ -63,4 +84,4 @@ export const drawBoxPlot = (root, data, ageScale, teamScale, team) => {
     .attr("y1", yBottom)
     .attr("y2", yTop)
     .style("stroke", "black");
-};
+}

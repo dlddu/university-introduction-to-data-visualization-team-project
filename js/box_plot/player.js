@@ -6,12 +6,11 @@ import {
   teamIndex,
   ageIndex,
   positionIndex,
-  positionToColor,
   boxScatteredPlotCircleRadius,
 } from "../common/constant.js";
 import { showTooltip } from "../tooltip.js";
 
-export const drawPlayer = (root, teamScale, ageScale, data) => {
+export const drawPlayer = (root, data, ageScale, teamScale, positionScale) => {
   // Draw dots
   const circles = root
     .append("g")
@@ -22,7 +21,7 @@ export const drawPlayer = (root, teamScale, ageScale, data) => {
     .attr("r", boxScatteredPlotCircleRadius)
     .attr("cx", (d) => ageScale(d[ageIndex]))
     .attr("cy", (d) => teamScale(d[teamIndex]) + teamScale.bandwidth() / 2)
-    .attr("fill", (d) => positionToColor[d[positionIndex].split(",")[0]]);
+    .attr("fill", (d) => positionScale(d[positionIndex].split(",")[0]));
 
   // Draw tooltip
   circles

@@ -25,28 +25,13 @@ function showChart(loadedData, year) {
   const data = loadedData.filter((row) => row[yearIndex] == yearToSeason[year]);
   const ageScale = getAgeScale(data);
   const teamScale = getTeamScale(data);
+  const positionScale = getPositionScale();
 
   drawAgeAxis(svg.append("g"), ageScale);
   drawTeamAxis(svg.append("g"), teamScale);
 
-  drawPlayer(svg.append("g"), teamScale, ageScale, data);
-  Array.from(new Set(data.map((d) => d[teamIndex]))).forEach((team) => {
-    {
-      const ages = Array.from(
-        new Set(
-          data.filter((d) => d[teamIndex] == team).map((d) => d[ageIndex])
-        )
-      );
-      if (ages.length < 5) return;
-      drawBoxPlot(
-        svg.append("g"),
-        data.filter((d) => d[teamIndex] == team).map((d) => d[ageIndex]),
-        ageScale,
-        teamScale,
-        team
-      );
-    }
-  });
+  drawPlayer(svg.append("g"), data, ageScale, teamScale, positionScale);
+  drawBoxPlot(svg.append("g"), data, ageScale, teamScale);
 
   drawAgeAxisTitle(svg);
   drawTeamAxisTitle(svg);
@@ -93,6 +78,13 @@ function getTeamScale(data) {
     .range([0, chartHeight])
     .padding(0.2)
     .paddingInner(0.2);
+}
+
+function getPositionScale() {
+  return d3
+    .scaleOrdinal()
+    .domain(["GK", "FW", "DF", "MF"])
+    .range(["#316f1d", "#0b224c", "#f2c43c", "#df5e26"]);
 }
 
 function drawAgeAxis(root, ageScale) {
