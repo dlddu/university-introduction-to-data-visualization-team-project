@@ -1,9 +1,4 @@
-import {
-  ageIndex,
-  positionIndex,
-  ratingIndex,
-  tooltipHeight,
-} from "../common/constant.js";
+import { ageIndex, positionIndex, tooltipHeight } from "../common/constant.js";
 
 function statMetadataObject(statPicker, color, ranker) {
   return {
@@ -14,7 +9,7 @@ function statMetadataObject(statPicker, color, ranker) {
 }
 
 const statMetadata = {
-  "슈팅당 득점율": statMetadataObject(
+  "Goals/Shot": statMetadataObject(
     (standardRow, defenseRow, passingRow, shootingRow) =>
       shootingRow["G/Sh"] == "" ? 0 : parseFloat(shootingRow["G/Sh"]),
     "#00BFFF",
@@ -30,7 +25,7 @@ const statMetadata = {
       return 9;
     }
   ),
-  유효슈팅률: statMetadataObject(
+  "Goals/Shot on Target": statMetadataObject(
     (standardRow, defenseRow, passingRow, shootingRow) => (
       shootingRow["G/Sot"] == "" ? 0 : parseFloat(shootingRow["G/Sot"]),
       standardRow[positionIndex]
@@ -63,10 +58,10 @@ const statMetadata = {
 };
 
 const positionToStat = {
-  FW: ["슈팅당 득점율", "유효슈팅률"],
-  MF: ["슈팅당 득점율", "유효슈팅률"],
-  DF: ["슈팅당 득점율", "유효슈팅률"],
-  GK: ["슈팅당 득점율"],
+  FW: ["Goals/Shot", "Goals/Shot on Target"],
+  MF: ["Goals/Shot", "Goals/Shot on Target"],
+  DF: ["Goals/Shot", "Goals/Shot on Target"],
+  GK: ["Goals/Shot"],
 };
 
 export const drawRank = (
@@ -90,6 +85,9 @@ export const drawRank = (
     new Set(positions.flatMap((position) => positionToStat[position]))
   );
 
+  const statScale = getStatScale(statMetadata);
+  drawLegend(root.append("g"), statScale);
+
   for (const stat of stats) {
     const metadata = statMetadata[stat];
 
@@ -107,7 +105,7 @@ export const drawRank = (
           metadata.picker(d, defenseData[i], passingData[i], shootingData[i])
         )
       )
-      .attr("fill", metadata.color);
+      .attr("fill", statScale(stat));
 
     // Draw line
     const line = getLine(
@@ -122,10 +120,36 @@ export const drawRank = (
     root
       .append("path")
       .attr("d", line)
-      .attr("stroke", metadata.color)
+      .attr("stroke", statScale(stat))
       .attr("fill", "transparent");
   }
 };
+
+function getStatScale(statMetadata) {
+  const stats = [];
+  const colors = [];
+  for (const key in statMetadata) {
+    stats.push(key);
+    colors.push(statMetadata[key].color);
+  }
+  return d3.scaleOrdinal().domain(stats).range(colors);
+}
+
+function drawLegend(root, statScale) {
+  const legend = d3
+    .legendColor()
+    .shape("square")
+    .shapePadding(100)
+    .orient("horizontal")
+    .scale(statScale);
+
+  const legendAxis = root.call(legend).attr("transform", `translate(150, 300)`);
+
+  legendAxis
+    .selectAll(".label")
+    .attr("transform", `translate(25, 12.5)`)
+    .attr("style", null);
+}
 
 function getLine(
   ageScale,
