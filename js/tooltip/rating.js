@@ -1,4 +1,4 @@
-import { ageIndex, ratingIndex, tooltipHeight } from "../constant.js";
+import { ageIndex, ratingIndex, tooltipHeight } from "../common/constant.js";
 
 export const drawRating = (root, ageScale, data) => {
   const ratingScale = getScale(data);

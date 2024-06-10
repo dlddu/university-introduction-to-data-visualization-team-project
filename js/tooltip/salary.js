@@ -3,7 +3,7 @@ import {
   salaryIndex,
   tooltipHeight,
   tooltipWidth,
-} from "../constant.js";
+} from "../common/constant.js";
 
 export const drawSalary = (root, ageScale, data) => {
   const salaryScale = d3

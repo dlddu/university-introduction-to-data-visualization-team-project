@@ -1,15 +1,15 @@
 import {
   ageIndex,
-  ratingIndex,
   chartWidth,
   chartHeight,
   chartMargin,
-  salaryIndex,
   teamIndex,
   yearIndex,
-} from "./constant.js";
+  yearToSeason,
+} from "./common/constant.js";
 import { drawPlayer } from "./box_plot/player.js";
 import { drawBoxPlot } from "./box_plot/box_plot.js";
+import { loadData } from "./common/data_loader.js";
 
 const svg = d3
   .select("body")
@@ -19,24 +19,10 @@ const svg = d3
   .append("g")
   .attr("transform", `translate(${chartMargin * 2}, ${chartMargin})`);
 
-const loadedData = loadData();
+showChart(await loadData(), 2022);
 
-showChart(await loadedData, 2022);
-
-async function loadData() {
-  const years = ["2019", "2021", "2022", "2023"];
-  let acc = [];
-  for (const year of years) {
-    const filepath = `/data/player_season_stats_${year}.csv`;
-    const read = await d3.csv(filepath);
-    acc = acc.concat(read);
-  }
-
-  return acc;
-}
-
-function showChart(loadData, year) {
-  const data = loadData.filter((row) => row[yearIndex] == year);
+function showChart(loadedData, year) {
+  const data = loadedData.filter((row) => row[yearIndex] == yearToSeason[year]);
   const ageScale = getAgeScale(data);
   const teamScale = getTeamScale(data);
 
@@ -128,21 +114,4 @@ function drawTeamAxis(root, teamScale) {
     .call(d3.axisLeft(teamScale).tickSizeInner(-chartWidth));
   teamAxis.selectAll("path").style("stroke", "transparent");
   teamAxis.selectAll("line").style("stroke", "#EEEEEE");
-}
-
-// Preprocess data /////////////////////////////////////////////////////////////////
-
-function convertStringDataToFloat(data) {
-  return data.map(convertStringToFloat);
-}
-
-function convertStringToFloat(row) {
-  const copy = {
-    ...row,
-  };
-  copy[yearIndex] = parseInt(row[yearIndex]);
-  copy[ageIndex] = parseInt(row[ageIndex]);
-  copy[ratingIndex] = parseFloat(row[ratingIndex]);
-  copy[salaryIndex] = parseInt(row[salaryIndex]);
-  return copy;
 }

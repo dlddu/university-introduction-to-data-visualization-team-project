@@ -2,19 +2,18 @@ import {
   idIndex,
   nameIndex,
   ageIndex,
-  ratingIndex,
   tooltipWidth,
   tooltipHeight,
-  salaryIndex,
   teamIndex,
-} from "./constant.js";
+} from "./common/constant.js";
 import { drawRating } from "./tooltip/rating.js";
 import { drawSalary } from "./tooltip/salary.js";
+import { loadData } from "./common/data_loader.js";
 
-const loadData = d3.csv("/data/sample.csv").then(convertStringDataToFloat);
+const loadedData = loadData();
 
 export const showTooltip = async (root, playerId) => {
-  const data = (await loadData).filter((d) => d[idIndex] === playerId);
+  const data = (await loadedData).filter((d) => d[idIndex] === playerId);
   const ageScale = getAgeScale(data);
 
   drawAgeAxis(root.append("g"), ageScale, data);
@@ -91,22 +90,6 @@ function getAgeScale(data) {
     .range([0, tooltipWidth])
     .padding(0.2)
     .paddingInner(0.2);
-}
-
-// Preprocess data /////////////////////////////////////////////////////////////////
-
-function convertStringDataToFloat(data) {
-  return data.map(convertStringToFloat);
-}
-
-function convertStringToFloat(row) {
-  const copy = {
-    ...row,
-  };
-  copy[ageIndex] = parseInt(row[ageIndex]);
-  copy[ratingIndex] = parseFloat(row[ratingIndex]);
-  copy[salaryIndex] = parseInt(row[salaryIndex]);
-  return copy;
 }
 
 // Utility /////////////////////////////////////////////////////////////////

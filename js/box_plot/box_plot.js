@@ -1,4 +1,4 @@
-import { boxScatteredPlotCircleRadius } from "../constant.js";
+import { boxScatteredPlotCircleRadius } from "../common/constant.js";
 
 export const drawBoxPlot = (root, data, ageScale, teamScale, team) => {
   const q1 = d3.quantile(data.sort(d3.ascending), 0.25);

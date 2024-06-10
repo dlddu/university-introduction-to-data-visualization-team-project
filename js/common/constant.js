@@ -16,17 +16,20 @@ export const tooltipHeight = 250;
 export const tooltipMargin = 50;
 
 export const positionToColor = {
-  Goalkeeper: "#316f1d",
+  GK: "#316f1d",
   // ----------------
-  Forward: "#0b224c",
-  Striker: "#0b224c",
-  "Right Wing": "#0b224c",
-  "Left Wing": "#0b224c",
+  FW: "#0b224c",
   // ----------------
-  Defender: "#f2c43c",
-  "Center Back": "#f2c43c",
+  DF: "#f2c43c",
   // ----------------
-  Midfielder: "#df5e26",
+  MF: "#df5e26",
 };
 
 export const boxScatteredPlotCircleRadius = 7;
+
+export const yearToSeason = {
+  2019: "1920",
+  2021: "2021",
+  2022: "2223",
+  2023: "2324",
+};
