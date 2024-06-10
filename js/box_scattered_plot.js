@@ -99,13 +99,22 @@ function getTeamScale(data) {
 
 function drawAgeAxis(root, ageScale) {
   const domain = ageScale.domain();
-  root
-    .attr("transform", `translate(0, ${chartHeight})`)
-    .call(d3.axisBottom(ageScale).ticks(domain[1] - domain[0]));
+  const ageAxis = root.attr("transform", `translate(0, ${chartHeight})`).call(
+    d3
+      .axisBottom(ageScale)
+      .ticks(domain[1] - domain[0])
+      .tickSizeInner(-chartHeight)
+  );
+  ageAxis.selectAll("path").style("stroke", "#EEEEEE");
+  ageAxis.selectAll("line").style("stroke", "#EEEEEE");
 }
 
 function drawTeamAxis(root, teamScale) {
-  root.attr("transform", `0, 0)`).call(d3.axisLeft(teamScale));
+  const teamAxis = root
+    .attr("transform", `0, 0)`)
+    .call(d3.axisLeft(teamScale).tickSizeInner(-chartWidth));
+  teamAxis.selectAll("path").style("stroke", "#EEEEEE");
+  teamAxis.selectAll("line").style("stroke", "#EEEEEE");
 }
 
 // Preprocess data /////////////////////////////////////////////////////////////////
