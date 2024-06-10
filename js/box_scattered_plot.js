@@ -107,6 +107,7 @@ function drawAgeAxis(root, ageScale) {
   );
   ageAxis.selectAll("path").style("stroke", "#EEEEEE");
   ageAxis.selectAll("line").style("stroke", "#EEEEEE");
+  ageAxis.selectAll("text").style("color", "#777777");
 }
 
 function drawTeamAxis(root, teamScale) {
