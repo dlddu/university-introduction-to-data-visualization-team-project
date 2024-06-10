@@ -99,7 +99,6 @@ function drawAgeAxis(root, ageScale) {
   const domain = ageScale.domain();
   let ticks = domain[1] - domain[0];
   while (ticks > 20) ticks = ticks / 2;
-  console.log(ticks);
   const ageAxis = root
     .attr("transform", `translate(0, ${chartHeight})`)
     .call(d3.axisBottom(ageScale).ticks(ticks).tickSizeInner(-chartHeight));
