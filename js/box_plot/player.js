@@ -29,7 +29,7 @@ export const drawPlayer = (root, data, ageScale, teamScale, positionScale) => {
         .select("#tooltip")
         .style("display", "block")
         .append("svg")
-        .attr("width", tooltipWidth + tooltipMargin * 4)
+        .attr("width", tooltipWidth + tooltipMargin * 13)
         .attr("height", tooltipHeight + tooltipMargin * 3)
         .append("g")
         .attr("transform", `translate(${tooltipMargin}, ${tooltipMargin})`);

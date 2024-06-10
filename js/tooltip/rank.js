@@ -12,7 +12,7 @@ const statMetadata = {
   "Goals/Shot": statMetadataObject(
     (standardRow, defenseRow, passingRow, shootingRow) =>
       parseCsvFloat(shootingRow["G/Sh"]),
-    "#00BFFF",
+    "#1f77b4",
     (value) => {
       if (value >= 0.11) return 1;
       if (value >= 0.105) return 2;
@@ -30,7 +30,7 @@ const statMetadata = {
       parseCsvFloat(shootingRow["SoT%"]) / 100,
       standardRow[positionIndex].split(",")[0],
     ],
-    "#DC143C",
+    "#ff7f0e",
     ([value, position]) => {
       if (position == "FW" || position == "MF") {
         if (value >= 0.495) return 1;
@@ -58,7 +58,7 @@ const statMetadata = {
   "Goals/Shot on Target": statMetadataObject(
     (standardRow, defenseRow, passingRow, shootingRow) =>
       parseCsvFloat(shootingRow["G/SoT"]),
-    "#32CD32",
+    "#2ca02c",
     (value) => {
       if (value >= 0.495) return 1;
       if (value >= 0.485) return 2;
@@ -80,7 +80,7 @@ const statMetadata = {
         standardRow[positionIndex].split(",")[0],
       ];
     },
-    "#FFD700",
+    "#d62728",
     ([value, position]) => {
       if (position == "FW") {
         if (value >= 0.196) return 1;
@@ -114,7 +114,7 @@ const statMetadata = {
         standardRow[positionIndex].split(",")[0],
       ];
     },
-    "#FFD700",
+    "#9467bd",
     ([value, position]) => {
       if (position == "FW" || position == "MF") {
         if (value >= 0.763) return 1;
@@ -139,6 +139,118 @@ const statMetadata = {
       }
     }
   ),
+  "Shots Blocked/Matches Played": statMetadataObject(
+    (standardRow, defenseRow, passingRow, shootingRow) => {
+      const blocked = parseCsvFloat(defenseRow["Sh"]);
+      const matches = parseCsvFloat(standardRow["MP"]);
+      return [
+        matches == 0 ? 0 : blocked / matches,
+        standardRow[positionIndex].split(",")[0],
+      ];
+    },
+    "#8c564b",
+    ([value, position]) => {
+      if (position == "FW" || position == "MF") {
+        if (value >= 0.073) return 1;
+        if (value >= 0.068) return 2;
+        if (value >= 0.063) return 3;
+        if (value >= 0.058) return 4;
+        if (value >= 0.053) return 5;
+        if (value >= 0.048) return 6;
+        if (value >= 0.043) return 7;
+        if (value >= 0.038) return 8;
+        return 9;
+      } else {
+        if (value >= 0.426) return 1;
+        if (value >= 0.411) return 2;
+        if (value >= 0.395) return 3;
+        if (value >= 0.38) return 4;
+        if (value >= 0.364) return 5;
+        if (value >= 0.349) return 6;
+        if (value >= 0.333) return 7;
+        if (value >= 0.318) return 8;
+        return 9;
+      }
+    }
+  ),
+  "Passes Blocked/Matches Played": statMetadataObject(
+    (standardRow, defenseRow, passingRow, shootingRow) => {
+      const blocked = parseCsvFloat(defenseRow["Pass"]);
+      const matches = parseCsvFloat(standardRow["MP"]);
+      return [
+        matches == 0 ? 0 : blocked / matches,
+        standardRow[positionIndex].split(",")[0],
+      ];
+    },
+    "#e377c2",
+    ([value, position]) => {
+      if (position == "FW") {
+        if (value >= 2.27) return 1;
+        if (value >= 2.192) return 2;
+        if (value >= 2.114) return 3;
+        if (value >= 2.036) return 4;
+        if (value >= 1.958) return 5;
+        if (value >= 1.88) return 6;
+        if (value >= 1.802) return 7;
+        if (value >= 1.724) return 8;
+        return 9;
+      } else if (position == "MF") {
+        if (value >= 4.55) return 1;
+        if (value >= 4.541) return 2;
+        if (value >= 4.533) return 3;
+        if (value >= 4.524) return 4;
+        if (value >= 4.516) return 5;
+        if (value >= 4.507) return 6;
+        if (value >= 4.499) return 7;
+        if (value >= 4.49) return 8;
+        return 9;
+      } else {
+        if (value >= 9.771) return 1;
+        if (value >= 9.614) return 2;
+        if (value >= 9.457) return 3;
+        if (value >= 9.3) return 4;
+        if (value >= 9.143) return 5;
+        if (value >= 8.986) return 6;
+        if (value >= 8.829) return 7;
+        if (value >= 8.671) return 8;
+        return 9;
+      }
+    }
+  ),
+  "Interceptions/Matches Played": statMetadataObject(
+    (standardRow, defenseRow, passingRow, shootingRow) => {
+      const intercepted = parseCsvFloat(defenseRow["Int"]);
+      const matches = parseCsvFloat(standardRow["MP"]);
+      return [
+        matches == 0 ? 0 : intercepted / matches,
+        standardRow[positionIndex].split(",")[0],
+      ];
+    },
+    "#7f7f7f",
+    ([value, position]) => {
+      if (position == "FW") {
+        if (value >= 0.835) return 1;
+        if (value >= 0.804) return 2;
+        if (value >= 0.774) return 3;
+        if (value >= 0.743) return 4;
+        if (value >= 0.713) return 5;
+        if (value >= 0.682) return 6;
+        if (value >= 0.652) return 7;
+        if (value >= 0.621) return 8;
+        return 9;
+      } else {
+        if (value >= 1.748) return 1;
+        if (value >= 1.72) return 2;
+        if (value >= 1.691) return 3;
+        if (value >= 1.662) return 4;
+        if (value >= 1.634) return 5;
+        if (value >= 1.605) return 6;
+        if (value >= 1.577) return 7;
+        if (value >= 1.548) return 8;
+        return 9;
+      }
+    }
+  ),
 };
 
 const positionToStat = {
@@ -148,6 +260,9 @@ const positionToStat = {
     "Goals/Shot on Target",
     "Assists/Matches Played",
     "Passes Completed/Passes Attempted",
+    "Shots Blocked/Matches Played",
+    "Passes Blocked/Matches Played",
+    "Interceptions/Matches Played",
   ],
   MF: [
     "Goals/Shot",
@@ -155,6 +270,9 @@ const positionToStat = {
     "Goals/Shot on Target",
     "Assists/Matches Played",
     "Passes Completed/Passes Attempted",
+    "Shots Blocked/Matches Played",
+    "Passes Blocked/Matches Played",
+    "Interceptions/Matches Played",
   ],
   DF: [
     "Goals/Shot",
@@ -162,6 +280,9 @@ const positionToStat = {
     "Goals/Shot on Target",
     "Assists/Matches Played",
     "Passes Completed/Passes Attempted",
+    "Shots Blocked/Matches Played",
+    "Passes Blocked/Matches Played",
+    "Interceptions/Matches Played",
   ],
   GK: [
     "Goals/Shot",
@@ -191,7 +312,7 @@ export const drawRank = (
     new Set(positions.flatMap((position) => positionToStat[position]))
   );
 
-  const statScale = getStatScale(statMetadata);
+  const statScale = getStatScale(stats, statMetadata);
   drawLegend(root.append("g"), statScale);
 
   for (const stat of stats) {
@@ -231,14 +352,11 @@ export const drawRank = (
   }
 };
 
-function getStatScale(statMetadata) {
-  const stats = [];
-  const colors = [];
-  for (const key in statMetadata) {
-    stats.push(key);
-    colors.push(statMetadata[key].color);
-  }
-  return d3.scaleOrdinal().domain(stats).range(colors);
+function getStatScale(stats, statMetadata) {
+  return d3
+    .scaleOrdinal()
+    .domain(stats)
+    .range(stats.map((stat) => statMetadata[stat].color));
 }
 
 function drawLegend(root, statScale) {
@@ -249,7 +367,7 @@ function drawLegend(root, statScale) {
     .orient("horizontal")
     .scale(statScale);
 
-  const legendAxis = root.call(legend).attr("transform", `translate(150, 300)`);
+  const legendAxis = root.call(legend).attr("transform", `translate(0, 300)`);
 
   legendAxis
     .selectAll(".label")
