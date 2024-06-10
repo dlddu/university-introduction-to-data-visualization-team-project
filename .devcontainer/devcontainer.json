@@ -9,7 +9,8 @@
 			"extensions": [
 				"esbenp.prettier-vscode",
 				"ms-vscode.live-server",
-				"donjayamanne.githistory"
+				"donjayamanne.githistory",
+				"mechatroner.rainbow-csv"
 			]
 		}
 	}

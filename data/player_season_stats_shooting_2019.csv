@@ -1,0 +1,523 @@
+league,season,team,player,nation,pos,age,born,90s,Gls,Sh,SoT,SoT%,Sh/90,SoT/90,G/Sh,G/SoT,Dist,FK,PK,PKatt,xG,npxG,npxG/Sh,G-xG,np:G-xG
+ENG-Premier League,1920,Arsenal,Ainsley Maitland-Niles,ENG,DF,21,1997,15.4,0,4,1,25.0,0.26,0.06,0.0,0.0,18.0,0,0,0,0.4,0.4,0.11,-0.4,-0.4
+ENG-Premier League,1920,Arsenal,Alexandre Lacazette,FRA,FW,28,1991,20.8,10,52,26,50.0,2.5,1.25,0.19,0.38,12.6,3,0,0,8.1,8.1,0.17,1.9,1.9
+ENG-Premier League,1920,Arsenal,Bernd Leno,GER,GK,27,1992,29.4,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Arsenal,Bukayo Saka,ENG,"DF,FW",17,2001,19.5,1,13,4,30.8,0.67,0.21,0.08,0.25,17.9,0,0,0,1.0,1.0,0.07,0.0,0.0
+ENG-Premier League,1920,Arsenal,Calum Chambers,ENG,DF,24,1995,12.2,1,12,2,16.7,0.98,0.16,0.08,0.5,12.0,0,0,0,0.8,0.8,0.07,0.2,0.2
+ENG-Premier League,1920,Arsenal,Cédric Soares,POR,"MF,DF",27,1991,2.8,1,1,1,100.0,0.36,0.36,1.0,1.0,26.4,0,0,0,0.0,0.0,0.02,1.0,1.0
+ENG-Premier League,1920,Arsenal,Dani Ceballos,ESP,MF,22,1996,18.8,0,13,3,23.1,0.69,0.16,0.0,0.0,22.8,0,0,0,0.6,0.6,0.04,-0.6,-0.6
+ENG-Premier League,1920,Arsenal,David Luiz,BRA,DF,32,1987,31.2,2,23,8,34.8,0.74,0.26,0.09,0.25,20.4,7,0,0,1.6,1.6,0.07,0.4,0.4
+ENG-Premier League,1920,Arsenal,Eddie Nketiah,ENG,FW,20,1999,7.0,2,15,5,33.3,2.13,0.71,0.13,0.4,12.2,0,0,0,3.1,3.1,0.21,-1.1,-1.1
+ENG-Premier League,1920,Arsenal,Emile Smith Rowe,ENG,MF,19,2000,1.1,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Arsenal,Emiliano Martínez,ARG,GK,26,1992,8.6,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Arsenal,Gabriel Martinelli,BRA,FW,18,2001,7.4,3,12,5,41.7,1.63,0.68,0.25,0.6,12.9,0,0,0,2.2,2.2,0.18,0.8,0.8
+ENG-Premier League,1920,Arsenal,Granit Xhaka,SUI,MF,26,1992,28.7,1,11,3,27.3,0.38,0.1,0.09,0.33,23.0,0,0,0,0.5,0.5,0.05,0.5,0.5
+ENG-Premier League,1920,Arsenal,Henrikh Mkhitaryan,ARM,FW,30,1989,1.2,0,2,0,0.0,1.61,0.0,0.0,,13.5,0,0,0,0.3,0.3,0.16,-0.3,-0.3
+ENG-Premier League,1920,Arsenal,Héctor Bellerín,ESP,"DF,MF",24,1995,12.9,1,7,2,28.6,0.54,0.16,0.14,0.5,16.9,0,0,0,0.4,0.4,0.05,0.6,0.6
+ENG-Premier League,1920,Arsenal,Joe Willock,ENG,"MF,FW",19,1999,9.5,1,15,4,26.7,1.58,0.42,0.07,0.25,16.7,0,0,0,1.6,1.6,0.11,-0.6,-0.6
+ENG-Premier League,1920,Arsenal,Kieran Tierney,SCO,"DF,MF",22,1997,11.0,1,6,2,33.3,0.55,0.18,0.17,0.5,20.6,0,0,0,0.2,0.2,0.04,0.8,0.8
+ENG-Premier League,1920,Arsenal,Lucas Torreira,URU,MF,23,1996,16.8,1,21,6,28.6,1.25,0.36,0.05,0.17,18.8,0,0,0,1.4,1.4,0.07,-0.4,-0.4
+ENG-Premier League,1920,Arsenal,Mattéo Guendouzi,FRA,MF,20,1999,19.4,0,11,5,45.5,0.57,0.26,0.0,0.0,22.2,0,0,0,0.8,0.8,0.07,-0.8,-0.8
+ENG-Premier League,1920,Arsenal,Mesut Özil,GER,MF,30,1988,16.0,1,9,3,33.3,0.56,0.19,0.11,0.33,14.2,0,0,0,1.4,1.4,0.16,-0.4,-0.4
+ENG-Premier League,1920,Arsenal,Nacho Monreal,ESP,DF,33,1986,3.0,0,1,0,0.0,0.33,0.0,0.0,,9.8,0,0,0,0.0,0.0,0.04,0.0,0.0
+ENG-Premier League,1920,Arsenal,Nicolas Pépé,CIV,FW,24,1995,22.3,5,49,17,34.7,2.19,0.76,0.08,0.24,20.0,7,1,1,4.9,4.1,0.08,0.1,-0.1
+ENG-Premier League,1920,Arsenal,Pablo Marí,ESP,DF,25,1993,1.3,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Arsenal,Pierre-Emerick Aubameyang,GAB,FW,30,1989,34.8,22,91,40,44.0,2.61,1.15,0.22,0.5,15.5,2,2,2,14.7,13.2,0.14,7.3,6.8
+ENG-Premier League,1920,Arsenal,Reiss Nelson,ENG,FW,19,1999,7.0,1,11,4,36.4,1.57,0.57,0.09,0.25,17.4,0,0,0,0.9,0.9,0.08,0.1,0.1
+ENG-Premier League,1920,Arsenal,Rob Holding,ENG,DF,23,1995,6.5,0,2,0,0.0,0.31,0.0,0.0,,6.3,0,0,0,0.2,0.2,0.11,-0.2,-0.2
+ENG-Premier League,1920,Arsenal,Sead Kolašinac,BIH,DF,26,1993,18.9,0,4,0,0.0,0.21,0.0,0.0,,12.2,0,0,0,0.4,0.4,0.1,-0.4,-0.4
+ENG-Premier League,1920,Arsenal,Shkodran Mustafi,GER,DF,27,1992,13.4,0,11,3,27.3,0.82,0.22,0.0,0.0,9.4,0,0,0,0.9,0.9,0.08,-0.9,-0.9
+ENG-Premier League,1920,Arsenal,Sokratis Papastathopoulos,GRE,DF,31,1988,18.8,2,7,2,28.6,0.37,0.11,0.29,1.0,9.9,0,0,0,1.1,1.1,0.15,0.9,0.9
+ENG-Premier League,1920,Aston Villa,Ahmed Elmohamady,EGY,DF,31,1987,11.5,1,5,1,20.0,0.44,0.09,0.2,1.0,11.1,0,0,0,0.2,0.2,0.05,0.8,0.8
+ENG-Premier League,1920,Aston Villa,Anwar El Ghazi,NED,"FW,MF",24,1995,22.8,4,51,19,37.3,2.24,0.83,0.06,0.16,18.9,5,1,1,6.2,5.4,0.11,-2.2,-2.4
+ENG-Premier League,1920,Aston Villa,Björn Engels,BEL,DF,24,1994,16.1,1,8,1,12.5,0.5,0.06,0.13,1.0,7.8,0,0,0,1.0,0.9,0.11,0.0,0.1
+ENG-Premier League,1920,Aston Villa,Borja Bastón,ESP,"MF,FW",26,1992,0.2,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Aston Villa,Conor Hourihane,IRL,MF,28,1991,17.0,3,29,10,34.5,1.7,0.59,0.1,0.3,21.4,6,0,0,1.7,1.7,0.06,1.3,1.3
+ENG-Premier League,1920,Aston Villa,Danny Drinkwater,ENG,MF,29,1990,2.9,0,2,0,0.0,0.69,0.0,0.0,,18.3,0,0,0,0.1,0.1,0.06,-0.1,-0.1
+ENG-Premier League,1920,Aston Villa,Douglas Luiz,BRA,MF,21,1998,29.0,3,38,12,31.6,1.31,0.41,0.08,0.25,24.0,3,0,0,2.6,2.6,0.07,0.4,0.4
+ENG-Premier League,1920,Aston Villa,Ezri Konsa,ENG,DF,21,1997,22.7,1,11,4,36.4,0.49,0.18,0.09,0.25,13.0,0,0,0,1.5,1.5,0.13,-0.5,-0.5
+ENG-Premier League,1920,Aston Villa,Frederic Guilbert,FRA,"DF,MF",24,1994,22.7,0,8,3,37.5,0.35,0.13,0.0,0.0,21.8,0,0,0,0.3,0.3,0.04,-0.3,-0.3
+ENG-Premier League,1920,Aston Villa,Henri Lansbury,ENG,MF,28,1990,2.2,0,2,0,0.0,0.92,0.0,0.0,,21.0,0,0,0,0.1,0.1,0.04,-0.1,-0.1
+ENG-Premier League,1920,Aston Villa,Indiana Vassilev,USA,"FW,MF",18,2001,0.6,0,1,0,0.0,1.76,0.0,0.0,,21.9,0,0,0,0.0,0.0,0.03,0.0,0.0
+ENG-Premier League,1920,Aston Villa,Jack Grealish,ENG,"FW,MF",23,1995,35.9,8,72,23,31.9,2.0,0.64,0.11,0.35,18.5,1,0,1,6.8,6.0,0.08,1.2,2.0
+ENG-Premier League,1920,Aston Villa,Jed Steer,ENG,GK,26,1992,0.1,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Aston Villa,John McGinn,SCO,MF,24,1994,25.7,3,55,20,36.4,2.14,0.78,0.05,0.15,21.3,1,0,0,3.9,3.9,0.07,-0.9,-0.9
+ENG-Premier League,1920,Aston Villa,Jonathan Kodjia,CIV,FW,29,1989,1.3,0,2,0,0.0,1.54,0.0,0.0,,19.5,0,0,0,0.1,0.1,0.06,-0.1,-0.1
+ENG-Premier League,1920,Aston Villa,Jota,ESP,"FW,MF",28,1991,3.7,0,6,1,16.7,1.61,0.27,0.0,0.0,18.9,0,0,0,0.3,0.3,0.05,-0.3,-0.3
+ENG-Premier League,1920,Aston Villa,Keinan Davis,ENG,FW,21,1998,6.1,0,17,5,29.4,2.79,0.82,0.0,0.0,9.6,0,0,0,2.7,2.7,0.16,-2.7,-2.7
+ENG-Premier League,1920,Aston Villa,Kortney Hause,ENG,DF,24,1995,17.2,1,20,3,15.0,1.17,0.17,0.05,0.33,8.3,0,0,0,2.5,2.5,0.13,-1.5,-1.5
+ENG-Premier League,1920,Aston Villa,Marvelous Nakamba,ZIM,MF,25,1994,20.4,0,7,1,14.3,0.34,0.05,0.0,0.0,29.6,0,0,0,0.2,0.2,0.02,-0.2,-0.2
+ENG-Premier League,1920,Aston Villa,Matt Targett,ENG,"DF,MF",23,1995,25.5,1,7,4,57.1,0.27,0.16,0.14,0.25,16.5,1,0,0,0.4,0.4,0.06,0.6,0.6
+ENG-Premier League,1920,Aston Villa,Mbwana Samatta,TAN,FW,26,1992,10.5,1,17,3,17.6,1.62,0.29,0.06,0.33,10.8,0,0,0,2.3,2.3,0.14,-1.3,-1.3
+ENG-Premier League,1920,Aston Villa,Neil Taylor,WAL,DF,30,1989,12.1,0,3,0,0.0,0.25,0.0,0.0,,15.1,0,0,0,0.2,0.2,0.06,-0.2,-0.2
+ENG-Premier League,1920,Aston Villa,Pepe Reina,ESP,GK,36,1982,12.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Aston Villa,Tom Heaton,ENG,GK,33,1986,19.9,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Aston Villa,Trézéguet,EGY,"FW,MF",24,1994,21.7,6,50,17,34.0,2.31,0.78,0.12,0.35,17.4,4,0,0,4.7,4.7,0.09,1.3,1.3
+ENG-Premier League,1920,Aston Villa,Tyrone Mings,ENG,DF,26,1993,32.2,2,8,3,37.5,0.25,0.09,0.25,0.67,9.9,0,0,0,0.8,0.8,0.1,1.2,1.2
+ENG-Premier League,1920,Aston Villa,Wesley Moraes,BRA,FW,22,1996,19.8,5,34,17,50.0,1.72,0.86,0.15,0.29,12.6,0,0,1,6.4,5.5,0.16,-1.4,-0.5
+ENG-Premier League,1920,Aston Villa,Ørjan Nyland,NOR,GK,28,1990,6.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Bournemouth,Aaron Ramsdale,ENG,GK,21,1998,37.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Bournemouth,Adam Smith,ENG,DF,28,1991,22.8,0,4,1,25.0,0.18,0.04,0.0,0.0,19.5,0,0,0,0.8,0.8,0.19,-0.8,-0.8
+ENG-Premier League,1920,Bournemouth,Andrew Surman,ENG,MF,32,1986,2.6,0,1,0,0.0,0.38,0.0,0.0,,26.6,0,0,0,0.0,0.0,0.02,0.0,0.0
+ENG-Premier League,1920,Bournemouth,Arnaut Danjuma,NED,MF,22,1997,7.0,0,13,4,30.8,1.86,0.57,0.0,0.0,19.0,1,0,0,1.2,1.2,0.09,-1.2,-1.2
+ENG-Premier League,1920,Bournemouth,Callum Wilson,ENG,FW,27,1992,32.3,8,55,21,38.2,1.7,0.65,0.15,0.38,12.4,0,0,0,9.9,9.9,0.18,-1.9,-1.9
+ENG-Premier League,1920,Bournemouth,Charlie Daniels,ENG,DF,32,1986,1.4,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Bournemouth,Chris Mepham,WAL,DF,21,1997,10.1,1,7,2,28.6,0.69,0.2,0.14,0.5,10.5,0,0,0,0.9,0.9,0.13,0.1,0.1
+ENG-Premier League,1920,Bournemouth,Dan Gosling,ENG,MF,29,1990,14.0,3,13,6,46.2,0.93,0.43,0.23,0.5,11.6,0,0,0,2.9,2.9,0.22,0.1,0.1
+ENG-Premier League,1920,Bournemouth,David Brooks,WAL,"MF,FW",22,1997,5.6,1,6,2,33.3,1.07,0.36,0.17,0.5,23.9,1,0,0,0.5,0.5,0.08,0.5,0.5
+ENG-Premier League,1920,Bournemouth,Diego Rico,ESP,DF,26,1993,25.9,0,11,3,27.3,0.42,0.12,0.0,0.0,26.3,1,0,0,0.4,0.4,0.04,-0.4,-0.4
+ENG-Premier League,1920,Bournemouth,Dominic Solanke,ENG,FW,21,1997,18.3,3,32,8,25.0,1.74,0.44,0.09,0.38,14.8,0,0,0,4.6,4.6,0.14,-1.6,-1.6
+ENG-Premier League,1920,Bournemouth,Harry Wilson,WAL,"MF,FW",22,1997,18.3,7,56,20,35.7,3.06,1.09,0.13,0.35,20.8,12,0,0,4.0,4.0,0.07,3.0,3.0
+ENG-Premier League,1920,Bournemouth,Jack Simpson,ENG,DF,22,1996,2.7,0,1,0,0.0,0.37,0.0,0.0,,15.3,0,0,0,0.0,0.0,0.04,0.0,0.0
+ENG-Premier League,1920,Bournemouth,Jack Stacey,ENG,DF,23,1996,17.2,0,5,2,40.0,0.29,0.12,0.0,0.0,12.3,0,0,0,0.5,0.5,0.1,-0.5,-0.5
+ENG-Premier League,1920,Bournemouth,Jefferson Lerma,COL,MF,24,1994,30.0,1,30,2,6.7,1.0,0.07,0.03,0.5,24.3,0,0,0,1.2,1.2,0.04,-0.2,-0.2
+ENG-Premier League,1920,Bournemouth,Jordon Ibe,ENG,DF,23,1995,0.6,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Bournemouth,Joshua King,NOR,"FW,MF",27,1992,22.3,6,23,10,43.5,1.03,0.45,0.13,0.3,14.4,0,3,3,6.5,4.1,0.18,-0.5,-1.1
+ENG-Premier League,1920,Bournemouth,Junior Stanislas,ENG,"MF,FW",29,1989,7.9,3,17,6,35.3,2.15,0.76,0.12,0.33,20.4,3,1,1,2.1,1.4,0.08,0.9,0.6
+ENG-Premier League,1920,Bournemouth,Lewis Cook,ENG,"MF,FW",22,1997,15.0,0,9,2,22.2,0.6,0.13,0.0,0.0,25.3,0,0,0,0.3,0.3,0.04,-0.3,-0.3
+ENG-Premier League,1920,Bournemouth,Lloyd Kelly,ENG,DF,20,1998,7.1,0,1,0,0.0,0.14,0.0,0.0,,21.6,0,0,0,0.0,0.0,0.03,0.0,0.0
+ENG-Premier League,1920,Bournemouth,Mark Travers,IRL,GK,20,1999,1.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Bournemouth,Nathan Aké,NED,DF,24,1995,27.8,2,25,7,28.0,0.9,0.25,0.08,0.29,10.3,0,0,0,3.0,3.0,0.12,-1.0,-1.0
+ENG-Premier League,1920,Bournemouth,Philip Billing,DEN,MF,23,1996,28.1,1,33,8,24.2,1.17,0.28,0.03,0.13,20.7,1,0,0,2.0,2.0,0.06,-1.0,-1.0
+ENG-Premier League,1920,Bournemouth,Ryan Fraser,SCO,"MF,FW",25,1994,23.0,1,27,11,40.7,1.18,0.48,0.04,0.09,17.2,2,0,0,3.7,3.7,0.14,-2.7,-2.7
+ENG-Premier League,1920,Bournemouth,Sam Surridge,ENG,"FW,MF",21,1998,0.3,0,2,0,0.0,6.67,0.0,0.0,,11.9,0,0,0,0.5,0.5,0.26,-0.5,-0.5
+ENG-Premier League,1920,Bournemouth,Simon Francis,ENG,DF,34,1985,10.8,0,3,0,0.0,0.28,0.0,0.0,,12.5,0,0,0,0.1,0.1,0.05,-0.1,-0.1
+ENG-Premier League,1920,Bournemouth,Steve Cook,ENG,DF,28,1991,27.0,1,11,2,18.2,0.41,0.07,0.09,0.5,12.1,0,0,0,0.7,0.7,0.07,0.3,0.3
+ENG-Premier League,1920,Brighton,Aaron Connolly,IRL,FW,19,2000,14.0,3,38,13,34.2,2.72,0.93,0.08,0.23,16.2,0,0,0,4.0,4.0,0.11,-1.0,-1.0
+ENG-Premier League,1920,Brighton,Aaron Mooy,AUS,"MF,FW",28,1990,23.2,2,33,8,24.2,1.42,0.35,0.06,0.25,20.9,0,0,0,2.3,2.3,0.07,-0.3,-0.3
+ENG-Premier League,1920,Brighton,Adam Webster,ENG,DF,24,1995,29.6,3,16,7,43.8,0.54,0.24,0.19,0.43,13.6,0,0,0,1.3,1.3,0.08,1.7,1.7
+ENG-Premier League,1920,Brighton,Alexis Mac Allister,ARG,"MF,FW",20,1998,3.9,0,7,1,14.3,1.79,0.26,0.0,0.0,22.5,1,0,0,0.5,0.5,0.07,-0.5,-0.5
+ENG-Premier League,1920,Brighton,Alireza Jahanbakhsh,IRN,"FW,MF",25,1993,3.5,2,12,2,16.7,3.47,0.58,0.17,1.0,19.2,0,0,0,0.6,0.6,0.05,1.4,1.4
+ENG-Premier League,1920,Brighton,Bernardo,BRA,"DF,MF",24,1995,7.5,0,7,2,28.6,0.93,0.27,0.0,0.0,17.6,0,0,0,0.5,0.5,0.07,-0.5,-0.5
+ENG-Premier League,1920,Brighton,Dale Stephens,ENG,MF,30,1989,28.1,0,19,2,10.5,0.68,0.07,0.0,0.0,25.6,0,0,0,0.6,0.6,0.03,-0.6,-0.6
+ENG-Premier League,1920,Brighton,Dan Burn,ENG,DF,27,1992,32.0,0,12,0,0.0,0.37,0.0,0.0,,13.4,0,0,0,1.2,1.2,0.1,-1.2,-1.2
+ENG-Premier League,1920,Brighton,Davy Pröpper,NED,MF,27,1991,31.4,1,29,8,27.6,0.92,0.25,0.03,0.13,21.4,0,0,0,1.6,1.6,0.06,-0.6,-0.6
+ENG-Premier League,1920,Brighton,Ezequiel Schelotto,ITA,DF,30,1989,4.0,0,4,1,25.0,1.0,0.25,0.0,0.0,11.3,0,0,0,0.2,0.2,0.06,-0.2,-0.2
+ENG-Premier League,1920,Brighton,Florin Andone,ROU,FW,26,1993,0.8,1,1,1,100.0,1.23,1.23,1.0,1.0,7.8,0,0,0,0.4,0.4,0.36,0.6,0.6
+ENG-Premier League,1920,Brighton,Gaëtan Bong,CMR,"DF,MF",31,1988,0.7,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Brighton,Glenn Murray,ENG,FW,35,1983,8.9,1,18,5,27.8,2.03,0.56,0.06,0.2,13.9,0,0,0,2.4,2.4,0.13,-1.4,-1.4
+ENG-Premier League,1920,Brighton,Jürgen Locadia,CUW,"FW,MF",25,1993,1.0,0,2,1,50.0,2.09,1.05,0.0,0.0,9.9,0,0,0,0.3,0.3,0.13,-0.3,-0.3
+ENG-Premier League,1920,Brighton,Leandro Trossard,BEL,"FW,MF",24,1994,22.3,5,41,11,26.8,1.83,0.49,0.12,0.45,16.0,0,0,0,5.0,5.0,0.12,0.0,0.0
+ENG-Premier League,1920,Brighton,Lewis Dunk,ENG,DF,27,1991,35.9,3,31,10,32.3,0.86,0.28,0.1,0.3,11.8,5,0,0,4.5,4.5,0.15,-1.5,-1.5
+ENG-Premier League,1920,Brighton,Martín Montoya,ESP,"DF,MF",28,1991,21.1,0,8,3,37.5,0.38,0.14,0.0,0.0,16.1,0,0,0,1.5,1.5,0.18,-1.5,-1.5
+ENG-Premier League,1920,Brighton,Mathew Ryan,AUS,GK,27,1992,38.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Brighton,Neal Maupay,FRA,FW,22,1996,30.7,10,94,36,38.3,3.06,1.17,0.1,0.25,15.5,0,1,2,13.4,11.8,0.13,-3.4,-2.8
+ENG-Premier League,1920,Brighton,Pascal Groß,GER,"MF,FW",28,1991,20.0,2,29,9,31.0,1.45,0.45,0.07,0.22,22.6,4,0,0,1.6,1.6,0.06,0.4,0.4
+ENG-Premier League,1920,Brighton,Shane Duffy,IRL,DF,27,1992,13.8,1,7,1,14.3,0.51,0.07,0.14,1.0,10.9,0,0,0,1.2,1.2,0.17,-0.2,-0.2
+ENG-Premier League,1920,Brighton,Solly March,ENG,"FW,MF",25,1994,12.7,0,21,8,38.1,1.65,0.63,0.0,0.0,18.5,1,0,0,1.4,1.4,0.07,-1.4,-1.4
+ENG-Premier League,1920,Brighton,Steven Alzate,COL,"MF,DF",20,1998,13.2,0,13,3,23.1,0.98,0.23,0.0,0.0,18.3,0,0,0,1.2,1.2,0.09,-1.2,-1.2
+ENG-Premier League,1920,Brighton,Tariq Lamptey,GHA,DF,18,2000,6.5,0,2,0,0.0,0.31,0.0,0.0,,25.3,0,0,0,0.1,0.1,0.03,-0.1,-0.1
+ENG-Premier League,1920,Brighton,Yves Bissouma,MLI,MF,22,1996,14.0,1,16,7,43.8,1.14,0.5,0.06,0.14,28.1,0,0,0,0.4,0.4,0.03,0.6,0.6
+ENG-Premier League,1920,Burnley,Aaron Lennon,ENG,MF,32,1987,5.5,0,1,0,0.0,0.18,0.0,0.0,,14.7,0,0,0,0.0,0.0,0.04,0.0,0.0
+ENG-Premier League,1920,Burnley,Ashley Barnes,ENG,FW,29,1989,15.0,6,39,11,28.2,2.6,0.73,0.13,0.45,15.9,0,1,1,6.2,5.4,0.14,-0.2,-0.4
+ENG-Premier League,1920,Burnley,Ashley Westwood,ENG,MF,29,1990,35.0,2,13,3,23.1,0.37,0.09,0.15,0.67,20.2,2,0,0,1.1,1.1,0.08,0.9,0.9
+ENG-Premier League,1920,Burnley,Ben Mee,ENG,DF,29,1989,32.0,1,17,6,35.3,0.53,0.19,0.06,0.17,9.0,0,0,0,1.7,1.7,0.1,-0.7,-0.7
+ENG-Premier League,1920,Burnley,Charlie Taylor,ENG,DF,25,1993,21.6,0,1,0,0.0,0.05,0.0,0.0,,22.2,0,0,0,0.0,0.0,0.03,0.0,0.0
+ENG-Premier League,1920,Burnley,Chris Wood,NZL,FW,27,1991,27.1,14,64,28,43.8,2.36,1.03,0.2,0.46,10.7,0,1,1,15.7,14.9,0.23,-1.7,-1.9
+ENG-Premier League,1920,Burnley,Danny Drinkwater,ENG,MF,29,1990,0.6,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Burnley,Dwight McNeil,ENG,MF,19,1999,37.1,2,48,14,29.2,1.29,0.38,0.04,0.14,24.0,10,0,0,2.3,2.3,0.05,-0.3,-0.3
+ENG-Premier League,1920,Burnley,Erik Pieters,NED,"DF,MF",30,1988,20.9,0,14,3,21.4,0.67,0.14,0.0,0.0,22.1,0,0,0,0.5,0.5,0.04,-0.5,-0.5
+ENG-Premier League,1920,Burnley,Jack Cork,ENG,MF,30,1989,29.0,0,18,5,27.8,0.62,0.17,0.0,0.0,15.1,0,0,0,2.0,2.0,0.11,-2.0,-2.0
+ENG-Premier League,1920,Burnley,James Tarkowski,ENG,DF,26,1992,38.0,2,21,5,23.8,0.55,0.13,0.1,0.4,9.1,0,0,0,2.1,2.1,0.1,-0.1,-0.1
+ENG-Premier League,1920,Burnley,Jay Rodriguez,ENG,FW,30,1989,22.4,8,66,26,39.4,2.95,1.16,0.11,0.27,17.6,0,1,1,8.8,8.0,0.12,-0.8,-1.0
+ENG-Premier League,1920,Burnley,Jeff Hendrick,IRL,MF,27,1992,21.5,2,22,6,27.3,1.03,0.28,0.09,0.33,18.9,1,0,0,1.7,1.7,0.08,0.3,0.3
+ENG-Premier League,1920,Burnley,Josh Brownhill,ENG,MF,23,1995,8.9,0,6,0,0.0,0.67,0.0,0.0,,18.9,1,0,0,0.5,0.5,0.09,-0.5,-0.5
+ENG-Premier League,1920,Burnley,Jóhann Berg Guðmundsson,ISL,MF,28,1990,6.9,1,10,2,20.0,1.45,0.29,0.1,0.5,15.5,2,0,0,0.6,0.6,0.06,0.4,0.4
+ENG-Premier League,1920,Burnley,Kevin Long,IRL,DF,28,1990,6.3,0,2,0,0.0,0.32,0.0,0.0,,11.9,0,0,0,0.2,0.2,0.09,-0.2,-0.2
+ENG-Premier League,1920,Burnley,Matthew Lowton,ENG,DF,30,1989,17.0,0,1,0,0.0,0.06,0.0,0.0,,24.4,0,0,0,0.0,0.0,0.03,0.0,0.0
+ENG-Premier League,1920,Burnley,Matěj Vydra,CZE,FW,27,1992,9.1,2,18,10,55.6,1.98,1.1,0.11,0.2,13.1,0,0,0,3.8,3.8,0.21,-1.8,-1.8
+ENG-Premier League,1920,Burnley,Max Thompson,ENG,FW,17,2002,0.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Burnley,Nick Pope,ENG,GK,27,1992,38.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Burnley,Phil Bardsley,SCO,DF,34,1985,21.0,0,11,4,36.4,0.52,0.19,0.0,0.0,25.4,0,0,0,0.3,0.3,0.03,-0.3,-0.3
+ENG-Premier League,1920,Burnley,Robbie Brady,IRL,MF,27,1992,5.0,1,12,1,8.3,2.38,0.2,0.08,1.0,15.8,2,0,0,1.1,1.1,0.09,-0.1,-0.1
+ENG-Premier League,1920,Chelsea,Andreas Christensen,DEN,DF,23,1996,19.5,0,7,2,28.6,0.36,0.1,0.0,0.0,12.7,0,0,0,0.5,0.5,0.07,-0.5,-0.5
+ENG-Premier League,1920,Chelsea,Antonio Rüdiger,GER,DF,26,1993,19.0,2,12,3,25.0,0.63,0.16,0.17,0.67,13.6,0,0,0,0.9,0.9,0.07,1.1,1.1
+ENG-Premier League,1920,Chelsea,Armando Broja,ALB,FW,17,2001,0.1,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Chelsea,Billy Gilmour,SCO,MF,18,2001,2.2,0,1,0,0.0,0.46,0.0,0.0,,26.2,0,0,0,0.0,0.0,0.02,0.0,0.0
+ENG-Premier League,1920,Chelsea,Callum Hudson-Odoi,ENG,"FW,MF",18,2000,9.6,1,21,4,19.0,2.19,0.42,0.05,0.25,18.3,0,0,0,1.9,1.9,0.09,-0.9,-0.9
+ENG-Premier League,1920,Chelsea,Christian Pulisic,USA,FW,20,1998,19.1,9,63,25,39.7,3.29,1.31,0.14,0.36,13.4,0,0,0,9.0,9.0,0.14,0.0,0.0
+ENG-Premier League,1920,Chelsea,César Azpilicueta,ESP,DF,29,1989,35.9,2,29,6,20.7,0.81,0.17,0.07,0.33,13.8,0,0,0,2.4,2.4,0.08,-0.4,-0.4
+ENG-Premier League,1920,Chelsea,Emerson Palmieri,ITA,DF,24,1994,11.4,0,13,7,53.8,1.14,0.62,0.0,0.0,19.2,1,0,0,1.1,1.1,0.09,-1.1,-1.1
+ENG-Premier League,1920,Chelsea,Faustino Anjorin,ENG,FW,17,2001,0.2,0,1,0,0.0,4.5,0.0,0.0,,31.8,0,0,0,0.0,0.0,0.02,0.0,0.0
+ENG-Premier League,1920,Chelsea,Fikayo Tomori,ENG,DF,21,1997,14.3,1,7,3,42.9,0.49,0.21,0.14,0.33,14.6,0,0,0,0.4,0.4,0.06,0.6,0.6
+ENG-Premier League,1920,Chelsea,Jorginho,ITA,MF,27,1991,26.4,4,9,1,11.1,0.34,0.04,0.11,1.0,24.7,0,3,3,3.2,0.9,0.1,0.8,0.1
+ENG-Premier League,1920,Chelsea,Kepa Arrizabalaga,ESP,GK,24,1994,33.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Chelsea,Kurt Zouma,FRA,DF,24,1994,26.0,0,15,5,33.3,0.58,0.19,0.0,0.0,11.4,0,0,0,1.2,1.2,0.08,-1.2,-1.2
+ENG-Premier League,1920,Chelsea,Marcos Alonso,ESP,DF,28,1990,15.9,4,30,8,26.7,1.89,0.5,0.13,0.5,16.5,1,0,0,2.6,2.6,0.09,1.4,1.4
+ENG-Premier League,1920,Chelsea,Mason Mount,ENG,"MF,FW",20,1999,31.9,7,78,29,37.2,2.45,0.91,0.09,0.24,20.6,12,0,0,6.4,6.4,0.08,0.6,0.6
+ENG-Premier League,1920,Chelsea,Mateo Kovačić,CRO,MF,25,1994,23.0,1,21,5,23.8,0.91,0.22,0.05,0.2,20.3,0,0,0,0.9,0.9,0.04,0.1,0.1
+ENG-Premier League,1920,Chelsea,Michy Batshuayi,BEL,FW,25,1993,2.7,1,15,2,13.3,5.65,0.75,0.07,0.5,13.8,0,0,0,2.4,2.4,0.16,-1.4,-1.4
+ENG-Premier League,1920,Chelsea,N'Golo Kanté,FRA,MF,28,1991,19.2,3,18,6,33.3,0.94,0.31,0.17,0.5,21.2,0,0,0,1.4,1.4,0.08,1.6,1.6
+ENG-Premier League,1920,Chelsea,Olivier Giroud,FRA,FW,32,1986,11.0,8,39,19,48.7,3.53,1.72,0.21,0.42,11.5,1,0,0,7.3,7.3,0.19,0.7,0.7
+ENG-Premier League,1920,Chelsea,Pedro,ESP,"FW,MF",32,1987,7.3,1,22,10,45.5,3.0,1.36,0.05,0.1,15.8,0,0,0,2.0,2.0,0.09,-1.0,-1.0
+ENG-Premier League,1920,Chelsea,Reece James,ENG,DF,19,1999,16.8,0,18,3,16.7,1.07,0.18,0.0,0.0,20.7,0,0,0,0.8,0.8,0.04,-0.8,-0.8
+ENG-Premier League,1920,Chelsea,Ross Barkley,ENG,MF,25,1993,12.3,1,40,12,30.0,3.26,0.98,0.03,0.08,22.4,5,0,0,2.7,2.7,0.07,-1.7,-1.7
+ENG-Premier League,1920,Chelsea,Ruben Loftus-Cheek,ENG,"MF,FW",23,1996,2.3,0,4,0,0.0,1.73,0.0,0.0,,9.6,0,0,0,0.5,0.5,0.12,-0.5,-0.5
+ENG-Premier League,1920,Chelsea,Tammy Abraham,ENG,FW,21,1997,24.6,15,88,35,39.8,3.58,1.42,0.17,0.43,11.6,0,0,0,16.4,16.4,0.19,-1.4,-1.4
+ENG-Premier League,1920,Chelsea,Tariq Lamptey,GHA,DF,18,2000,0.4,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Chelsea,Willian,BRA,"FW,MF",30,1988,28.9,9,67,25,37.3,2.32,0.87,0.07,0.2,20.0,9,4,4,7.6,4.5,0.07,1.4,0.5
+ENG-Premier League,1920,Chelsea,Willy Caballero,ARG,GK,37,1981,5.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Crystal Palace,Andros Townsend,ENG,"FW,MF",28,1991,14.4,1,12,5,41.7,0.83,0.35,0.08,0.2,26.1,1,0,0,0.4,0.4,0.03,0.6,0.6
+ENG-Premier League,1920,Crystal Palace,Brandon Pierrick,ENG,"MF,FW",17,2001,0.2,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Crystal Palace,Cenk Tosun,TUR,FW,28,1991,2.0,1,4,2,50.0,2.03,1.02,0.25,0.5,12.4,0,0,0,0.5,0.5,0.13,0.5,0.5
+ENG-Premier League,1920,Crystal Palace,Cheikhou Kouyaté,SEN,"MF,DF",29,1989,28.1,1,24,4,16.7,0.85,0.14,0.04,0.25,12.0,0,0,0,2.7,2.7,0.11,-1.7,-1.7
+ENG-Premier League,1920,Crystal Palace,Christian Benteke,BEL,FW,28,1990,14.0,2,41,19,46.3,2.93,1.36,0.05,0.11,13.2,0,0,0,5.1,5.1,0.12,-3.1,-3.1
+ENG-Premier League,1920,Crystal Palace,Connor Wickham,ENG,"FW,MF",26,1993,1.1,1,3,2,66.7,2.81,1.87,0.33,0.5,11.2,0,0,0,1.4,1.4,0.46,-0.4,-0.4
+ENG-Premier League,1920,Crystal Palace,Gary Cahill,ENG,DF,33,1985,24.1,0,21,5,23.8,0.87,0.21,0.0,0.0,12.3,0,0,0,1.6,1.6,0.07,-1.6,-1.6
+ENG-Premier League,1920,Crystal Palace,James McArthur,SCO,MF,31,1987,34.3,0,28,6,21.4,0.82,0.17,0.0,0.0,18.5,0,0,0,2.0,2.0,0.07,-2.0,-2.0
+ENG-Premier League,1920,Crystal Palace,James McCarthy,IRL,MF,28,1990,18.7,0,12,3,25.0,0.64,0.16,0.0,0.0,22.2,0,0,0,0.5,0.5,0.04,-0.5,-0.5
+ENG-Premier League,1920,Crystal Palace,James Tomkins,ENG,DF,30,1989,17.6,1,9,2,22.2,0.51,0.11,0.11,0.5,8.9,0,0,0,1.1,1.1,0.12,-0.1,-0.1
+ENG-Premier League,1920,Crystal Palace,Jaïro Riedewald,NED,"DF,MF",22,1996,8.5,0,3,0,0.0,0.35,0.0,0.0,,27.9,0,0,0,0.1,0.1,0.03,-0.1,-0.1
+ENG-Premier League,1920,Crystal Palace,Jeffrey Schlupp,GHA,"FW,MF",26,1992,11.5,3,18,9,50.0,1.56,0.78,0.17,0.33,18.7,0,0,0,1.7,1.7,0.1,1.3,1.3
+ENG-Premier League,1920,Crystal Palace,Joel Ward,ENG,DF,29,1989,26.5,0,5,1,20.0,0.19,0.04,0.0,0.0,15.1,0,0,0,0.3,0.3,0.05,-0.3,-0.3
+ENG-Premier League,1920,Crystal Palace,Jordan Ayew,GHA,FW,27,1991,35.0,9,58,24,41.4,1.66,0.69,0.16,0.38,14.8,0,0,0,7.5,7.5,0.13,1.5,1.5
+ENG-Premier League,1920,Crystal Palace,Luka Milivojević,SRB,MF,28,1991,27.9,3,29,7,24.1,1.04,0.25,0.03,0.14,28.4,11,2,2,2.7,1.2,0.04,0.3,-0.2
+ENG-Premier League,1920,Crystal Palace,Mamadou Sakho,FRA,DF,29,1990,10.3,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Crystal Palace,Martin Kelly,ENG,DF,29,1990,17.2,0,2,0,0.0,0.12,0.0,0.0,,20.4,0,0,0,0.1,0.1,0.03,-0.1,-0.1
+ENG-Premier League,1920,Crystal Palace,Max Meyer,GER,"MF,FW",23,1995,7.3,0,9,2,22.2,1.24,0.27,0.0,0.0,17.8,0,0,0,0.5,0.5,0.06,-0.5,-0.5
+ENG-Premier League,1920,Crystal Palace,Patrick van Aanholt,NED,DF,28,1990,27.9,3,26,5,19.2,0.93,0.18,0.08,0.4,21.7,3,1,1,2.1,1.3,0.05,0.9,0.7
+ENG-Premier League,1920,Crystal Palace,Scott Dann,ENG,DF,32,1987,14.1,0,8,2,25.0,0.57,0.14,0.0,0.0,9.3,0,0,0,0.8,0.8,0.1,-0.8,-0.8
+ENG-Premier League,1920,Crystal Palace,Tyrick Mitchell,ENG,DF,19,1999,2.2,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Crystal Palace,Vicente Guaita,ESP,GK,32,1987,35.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Crystal Palace,Víctor Camarasa,ESP,FW,25,1994,0.1,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Crystal Palace,Wayne Hennessey,WAL,GK,32,1987,3.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Crystal Palace,Wilfried Zaha,CIV,"FW,MF",26,1992,36.4,4,61,17,27.9,1.67,0.47,0.07,0.24,16.2,0,0,0,5.2,5.2,0.08,-1.2,-1.2
+ENG-Premier League,1920,Everton,Alex Iwobi,NGA,"MF,FW",23,1996,17.7,1,23,10,43.5,1.3,0.56,0.04,0.1,17.3,0,0,0,2.5,2.5,0.11,-1.5,-1.5
+ENG-Premier League,1920,Everton,André Gomes,POR,MF,26,1993,16.2,0,5,0,0.0,0.31,0.0,0.0,,23.5,0,0,0,0.2,0.2,0.03,-0.2,-0.2
+ENG-Premier League,1920,Everton,Anthony Gordon,ENG,"MF,FW",18,2001,4.9,0,6,1,16.7,1.23,0.2,0.0,0.0,20.8,0,0,0,0.3,0.3,0.05,-0.3,-0.3
+ENG-Premier League,1920,Everton,Bernard,BRA,"MF,FW",26,1992,14.2,3,12,5,41.7,0.84,0.35,0.25,0.6,16.6,1,0,0,1.8,1.8,0.15,1.2,1.2
+ENG-Premier League,1920,Everton,Cenk Tosun,TUR,FW,28,1991,3.2,1,11,3,27.3,3.4,0.93,0.09,0.33,14.2,0,0,0,1.0,1.0,0.09,0.0,0.0
+ENG-Premier League,1920,Everton,Djibril Sidibé,FRA,"DF,MF",27,1992,20.3,0,12,3,25.0,0.59,0.15,0.0,0.0,24.0,0,0,0,0.4,0.4,0.03,-0.4,-0.4
+ENG-Premier League,1920,Everton,Dominic Calvert-Lewin,ENG,FW,22,1997,29.2,13,85,38,44.7,2.91,1.3,0.15,0.34,12.9,0,0,0,15.3,15.3,0.18,-2.3,-2.3
+ENG-Premier League,1920,Everton,Fabian Delph,ENG,MF,29,1989,13.2,0,3,0,0.0,0.23,0.0,0.0,,30.9,0,0,0,0.1,0.1,0.02,-0.1,-0.1
+ENG-Premier League,1920,Everton,Gylfi Sigurðsson,ISL,MF,29,1989,28.4,2,45,12,26.7,1.58,0.42,0.02,0.08,22.8,5,1,1,4.0,3.2,0.07,-2.0,-2.2
+ENG-Premier League,1920,Everton,Jarrad Branthwaite,ENG,DF,17,2002,3.3,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Everton,Jean-Philippe Gbamin,CIV,MF,23,1995,1.5,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Everton,Jordan Pickford,ENG,GK,25,1994,38.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Everton,Leighton Baines,ENG,DF,34,1984,4.5,0,1,0,0.0,0.22,0.0,0.0,,31.0,1,0,0,0.1,0.1,0.05,-0.1,-0.1
+ENG-Premier League,1920,Everton,Lucas Digne,FRA,DF,26,1993,33.7,0,29,4,13.8,0.86,0.12,0.0,0.0,24.4,13,0,0,1.5,1.5,0.05,-1.5,-1.5
+ENG-Premier League,1920,Everton,Mason Holgate,ENG,DF,22,1996,22.8,0,11,5,45.5,0.48,0.22,0.0,0.0,15.0,0,0,0,1.7,1.7,0.16,-1.7,-1.7
+ENG-Premier League,1920,Everton,Michael Keane,ENG,DF,26,1993,28.4,2,14,4,28.6,0.49,0.14,0.14,0.5,7.8,0,0,0,1.9,1.9,0.13,0.1,0.1
+ENG-Premier League,1920,Everton,Moise Kean,ITA,FW,19,2000,9.5,2,30,13,43.3,3.17,1.37,0.07,0.15,16.1,0,0,0,4.0,4.0,0.13,-2.0,-2.0
+ENG-Premier League,1920,Everton,Morgan Schneiderlin,FRA,MF,29,1989,11.1,0,6,0,0.0,0.54,0.0,0.0,,21.4,0,0,0,0.2,0.2,0.04,-0.2,-0.2
+ENG-Premier League,1920,Everton,Oumar Niasse,SEN,FW,29,1990,0.2,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Everton,Richarlison,BRA,"FW,MF",22,1997,34.1,13,90,32,35.6,2.64,0.94,0.14,0.41,14.8,0,0,0,9.1,9.1,0.1,3.9,3.9
+ENG-Premier League,1920,Everton,Séamus Coleman,IRL,DF,30,1988,20.4,0,8,3,37.5,0.39,0.15,0.0,0.0,16.0,0,0,0,0.9,0.9,0.12,-0.9,-0.9
+ENG-Premier League,1920,Everton,Theo Walcott,ENG,"MF,FW",30,1989,14.3,2,31,10,32.3,2.17,0.7,0.06,0.2,16.1,0,0,0,3.1,3.1,0.1,-1.1,-1.1
+ENG-Premier League,1920,Everton,Tom Davies,ENG,MF,21,1998,22.5,1,17,5,29.4,0.75,0.22,0.06,0.2,17.1,0,0,0,1.6,1.6,0.09,-0.6,-0.6
+ENG-Premier League,1920,Everton,Yerry Mina,COL,DF,24,1994,25.4,2,29,11,37.9,1.14,0.43,0.07,0.18,10.7,0,0,0,3.4,3.4,0.12,-1.4,-1.4
+ENG-Premier League,1920,Leicester City,Ayoze Pérez,ESP,"MF,FW",26,1993,22.3,8,46,21,45.7,2.07,0.94,0.15,0.33,14.5,0,1,1,6.5,5.7,0.13,1.5,1.3
+ENG-Premier League,1920,Leicester City,Ben Chilwell,ENG,DF,22,1996,26.4,3,16,6,37.5,0.61,0.23,0.19,0.5,19.1,0,0,0,1.0,1.0,0.06,2.0,2.0
+ENG-Premier League,1920,Leicester City,Christian Fuchs,AUT,DF,33,1986,8.6,0,5,1,20.0,0.58,0.12,0.0,0.0,25.8,2,0,0,0.2,0.2,0.05,-0.2,-0.2
+ENG-Premier League,1920,Leicester City,Demarai Gray,JAM,"MF,FW",23,1996,6.9,2,22,7,31.8,3.18,1.01,0.09,0.29,19.8,3,0,1,2.8,2.0,0.09,-0.8,0.0
+ENG-Premier League,1920,Leicester City,Dennis Praet,BEL,MF,25,1994,12.6,1,16,3,18.8,1.27,0.24,0.06,0.33,18.6,0,0,0,0.9,0.9,0.06,0.1,0.1
+ENG-Premier League,1920,Leicester City,George Hirst,ENG,"MF,DF",20,1999,0.1,0,3,1,33.3,24.55,8.18,0.0,0.0,13.4,0,0,0,0.1,0.1,0.05,-0.1,-0.1
+ENG-Premier League,1920,Leicester City,Hamza Choudhury,ENG,MF,21,1997,9.9,1,7,2,28.6,0.71,0.2,0.14,0.5,16.2,0,0,0,0.4,0.4,0.05,0.6,0.6
+ENG-Premier League,1920,Leicester City,Harvey Barnes,ENG,"MF,FW",21,1997,23.1,6,61,28,45.9,2.64,1.21,0.1,0.21,16.7,0,0,0,8.1,8.1,0.13,-2.1,-2.1
+ENG-Premier League,1920,Leicester City,James Justin,ENG,"DF,MF",21,1998,11.2,0,7,0,0.0,0.62,0.0,0.0,,20.2,0,0,0,0.3,0.3,0.04,-0.3,-0.3
+ENG-Premier League,1920,Leicester City,James Maddison,ENG,MF,22,1996,29.2,6,74,18,24.3,2.54,0.62,0.08,0.33,22.0,14,0,0,5.3,5.3,0.07,0.7,0.7
+ENG-Premier League,1920,Leicester City,Jamie Vardy,ENG,FW,32,1987,33.7,23,84,37,44.0,2.49,1.1,0.23,0.51,13.1,0,4,5,19.2,15.3,0.19,3.8,3.7
+ENG-Premier League,1920,Leicester City,Jonny Evans,NIR,DF,31,1988,37.6,1,23,8,34.8,0.61,0.21,0.04,0.13,8.4,0,0,0,3.7,3.7,0.16,-2.7,-2.7
+ENG-Premier League,1920,Leicester City,Kasper Schmeichel,DEN,GK,32,1986,38.0,0,1,0,0.0,0.03,0.0,0.0,,56.1,1,0,0,0.0,0.0,0.02,0.0,0.0
+ENG-Premier League,1920,Leicester City,Kelechi Iheanacho,NGA,FW,22,1996,10.7,5,36,20,55.6,3.38,1.87,0.14,0.25,15.4,0,0,0,6.0,6.0,0.17,-1.0,-1.0
+ENG-Premier League,1920,Leicester City,Luke Thomas,ENG,"MF,DF",18,2001,3.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Leicester City,Marc Albrighton,ENG,"MF,DF",29,1989,9.6,0,10,2,20.0,1.04,0.21,0.0,0.0,20.7,0,0,0,0.4,0.4,0.04,-0.4,-0.4
+ENG-Premier League,1920,Leicester City,Matty James,ENG,MF,28,1991,0.1,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Leicester City,Nampalys Mendy,SEN,MF,27,1992,3.2,0,1,1,100.0,0.31,0.31,0.0,0.0,28.9,0,0,0,0.0,0.0,0.03,0.0,0.0
+ENG-Premier League,1920,Leicester City,Ricardo Pereira,POR,DF,25,1993,28.0,3,18,5,27.8,0.64,0.18,0.17,0.6,18.4,0,0,0,1.2,1.2,0.06,1.8,1.8
+ENG-Premier League,1920,Leicester City,Ryan Bennett,ENG,DF,29,1990,3.7,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Leicester City,Wes Morgan,JAM,DF,35,1984,4.8,0,4,2,50.0,0.83,0.41,0.0,0.0,10.0,0,0,0,0.5,0.5,0.14,-0.5,-0.5
+ENG-Premier League,1920,Leicester City,Wilfred Ndidi,NGA,MF,22,1996,29.7,2,26,3,11.5,0.88,0.1,0.08,0.67,19.2,0,0,0,1.6,1.6,0.06,0.4,0.4
+ENG-Premier League,1920,Leicester City,Youri Tielemans,BEL,MF,22,1997,31.4,3,56,13,23.2,1.78,0.41,0.05,0.23,23.8,0,0,0,2.7,2.7,0.05,0.3,0.3
+ENG-Premier League,1920,Leicester City,Çağlar Söyüncü,TUR,DF,23,1996,33.7,1,17,5,29.4,0.5,0.15,0.06,0.2,10.3,0,0,0,2.1,2.1,0.12,-1.1,-1.1
+ENG-Premier League,1920,Liverpool,Adam Lallana,ENG,"MF,FW",31,1988,4.2,1,5,1,20.0,1.18,0.24,0.2,1.0,16.3,0,0,0,0.8,0.8,0.15,0.2,0.2
+ENG-Premier League,1920,Liverpool,Adrián,ESP,GK,32,1987,9.7,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Liverpool,Alex Oxlade-Chamberlain,ENG,"MF,FW",25,1993,16.5,4,40,10,25.0,2.42,0.61,0.1,0.4,22.5,0,0,0,2.8,2.8,0.07,1.2,1.2
+ENG-Premier League,1920,Liverpool,Alisson,BRA,GK,26,1992,28.3,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Liverpool,Andrew Robertson,SCO,DF,25,1994,34.6,2,22,6,27.3,0.64,0.17,0.09,0.33,18.6,0,0,0,1.8,1.8,0.08,0.2,0.2
+ENG-Premier League,1920,Liverpool,Curtis Jones,ENG,MF,18,2001,1.4,1,6,2,33.3,4.29,1.43,0.17,0.5,17.4,0,0,0,0.4,0.4,0.07,0.6,0.6
+ENG-Premier League,1920,Liverpool,Dejan Lovren,CRO,DF,30,1989,8.6,0,5,1,20.0,0.58,0.12,0.0,0.0,8.6,0,0,0,0.4,0.4,0.08,-0.4,-0.4
+ENG-Premier League,1920,Liverpool,Divock Origi,BEL,FW,24,1995,8.0,4,14,6,42.9,1.76,0.75,0.29,0.67,15.7,0,0,0,1.8,1.8,0.13,2.2,2.2
+ENG-Premier League,1920,Liverpool,Fabinho,BRA,MF,25,1993,23.1,2,12,4,33.3,0.52,0.17,0.17,0.5,28.7,2,0,0,0.4,0.4,0.04,1.6,1.6
+ENG-Premier League,1920,Liverpool,Georginio Wijnaldum,NED,MF,28,1990,32.6,4,36,15,41.7,1.1,0.46,0.11,0.27,16.2,0,0,0,2.6,2.6,0.07,1.4,1.4
+ENG-Premier League,1920,Liverpool,Harvey Elliott,ENG,DF,16,2003,0.1,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Liverpool,James Milner,ENG,"MF,DF",33,1986,10.4,2,10,2,20.0,0.96,0.19,0.0,0.0,24.5,0,2,2,2.2,0.6,0.06,-0.2,-0.6
+ENG-Premier League,1920,Liverpool,Joe Gomez,ENG,DF,22,1997,22.3,0,1,0,0.0,0.04,0.0,0.0,,30.4,0,0,0,0.0,0.0,0.03,0.0,0.0
+ENG-Premier League,1920,Liverpool,Jordan Henderson,ENG,MF,29,1990,24.9,4,20,8,40.0,0.8,0.32,0.2,0.5,19.2,1,0,0,1.1,1.1,0.05,2.9,2.9
+ENG-Premier League,1920,Liverpool,Joël Matip,CMR,DF,27,1991,7.8,1,4,1,25.0,0.51,0.13,0.25,1.0,10.2,0,0,0,0.3,0.3,0.09,0.7,0.7
+ENG-Premier League,1920,Liverpool,Mohamed Salah,EGY,FW,27,1992,32.0,19,129,56,43.4,4.04,1.75,0.12,0.29,15.0,4,3,3,19.0,16.6,0.13,0.0,-0.6
+ENG-Premier League,1920,Liverpool,Naby Keïta,GUI,MF,24,1995,9.1,2,12,7,58.3,1.33,0.77,0.17,0.29,19.3,0,0,0,1.6,1.6,0.14,0.4,0.4
+ENG-Premier League,1920,Liverpool,Neco Williams,WAL,DF,18,2001,2.6,0,7,1,14.3,2.74,0.39,0.0,0.0,21.8,0,0,0,0.3,0.3,0.04,-0.3,-0.3
+ENG-Premier League,1920,Liverpool,Roberto Firmino,BRA,FW,27,1991,33.2,9,99,38,38.4,2.98,1.14,0.09,0.24,13.7,0,0,0,14.0,14.0,0.14,-5.0,-5.0
+ENG-Premier League,1920,Liverpool,Sadio Mané,SEN,FW,27,1992,30.5,18,77,36,46.8,2.52,1.18,0.23,0.5,13.5,0,0,0,13.2,13.2,0.18,4.8,4.8
+ENG-Premier League,1920,Liverpool,Takumi Minamino,JPN,"FW,MF",24,1995,2.8,0,8,2,25.0,2.89,0.72,0.0,0.0,19.5,0,0,0,0.8,0.8,0.1,-0.8,-0.8
+ENG-Premier League,1920,Liverpool,Trent Alexander-Arnold,ENG,DF,20,1998,35.3,4,44,13,29.5,1.25,0.37,0.09,0.31,22.6,13,0,0,2.8,2.8,0.06,1.2,1.2
+ENG-Premier League,1920,Liverpool,Virgil van Dijk,NED,DF,28,1991,38.0,5,31,14,45.2,0.82,0.37,0.16,0.36,11.8,0,0,0,2.9,2.9,0.09,2.1,2.1
+ENG-Premier League,1920,Liverpool,Xherdan Shaqiri,SUI,"FW,MF",27,1991,2.1,1,4,1,25.0,1.95,0.49,0.25,1.0,20.4,0,0,0,0.5,0.5,0.13,0.5,0.5
+ENG-Premier League,1920,Manchester City,Angeliño,ESP,DF,22,1997,4.7,0,5,0,0.0,1.06,0.0,0.0,,19.8,0,0,0,0.2,0.2,0.04,-0.2,-0.2
+ENG-Premier League,1920,Manchester City,Aymeric Laporte,ESP,DF,25,1994,12.2,1,4,2,50.0,0.33,0.16,0.25,0.5,16.3,0,0,0,0.5,0.5,0.13,0.5,0.5
+ENG-Premier League,1920,Manchester City,Benjamin Mendy,FRA,DF,25,1994,16.6,0,10,1,10.0,0.6,0.06,0.0,0.0,22.5,0,0,0,0.4,0.4,0.04,-0.4,-0.4
+ENG-Premier League,1920,Manchester City,Bernardo Silva,POR,"FW,MF",24,1994,22.6,6,52,15,28.8,2.31,0.67,0.12,0.4,14.2,0,0,0,6.0,6.0,0.12,0.0,0.0
+ENG-Premier League,1920,Manchester City,Claudio Bravo,CHI,GK,36,1983,3.9,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Manchester City,David Silva,ESP,MF,33,1986,20.3,6,47,18,38.3,2.32,0.89,0.13,0.33,14.4,5,0,0,6.4,6.4,0.14,-0.4,-0.4
+ENG-Premier League,1920,Manchester City,Ederson,BRA,GK,25,1993,34.1,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Manchester City,Eric García,ESP,DF,18,2001,8.8,0,2,1,50.0,0.23,0.11,0.0,0.0,7.1,0,0,0,0.5,0.5,0.27,-0.5,-0.5
+ENG-Premier League,1920,Manchester City,Fernandinho,BRA,DF,34,1985,26.6,0,17,2,11.8,0.64,0.08,0.0,0.0,14.9,0,0,0,1.0,1.0,0.06,-1.0,-1.0
+ENG-Premier League,1920,Manchester City,Gabriel Jesus,BRA,FW,22,1997,22.6,14,100,45,45.0,4.43,2.0,0.14,0.31,11.6,0,0,1,18.2,17.4,0.18,-4.2,-3.4
+ENG-Premier League,1920,Manchester City,John Stones,ENG,DF,25,1994,12.5,0,6,1,16.7,0.48,0.08,0.0,0.0,9.6,0,0,0,0.4,0.4,0.07,-0.4,-0.4
+ENG-Premier League,1920,Manchester City,João Cancelo,POR,DF,25,1994,13.4,0,15,3,20.0,1.12,0.22,0.0,0.0,23.9,0,0,0,0.6,0.6,0.04,-0.6,-0.6
+ENG-Premier League,1920,Manchester City,Kevin De Bruyne,BEL,MF,28,1991,31.0,13,97,29,29.9,3.13,0.94,0.11,0.38,21.8,11,2,2,7.3,5.8,0.06,5.7,5.2
+ENG-Premier League,1920,Manchester City,Kyle Walker,ENG,DF,29,1990,26.6,1,14,3,21.4,0.53,0.11,0.07,0.33,25.0,1,0,0,1.2,1.2,0.09,-0.2,-0.2
+ENG-Premier League,1920,Manchester City,Leroy Sané,GER,FW,23,1996,0.1,0,2,0,0.0,15.0,0.0,0.0,,26.5,1,0,0,0.1,0.1,0.06,-0.1,-0.1
+ENG-Premier League,1920,Manchester City,Nicolás Otamendi,ARG,DF,31,1988,19.1,2,15,7,46.7,0.79,0.37,0.13,0.29,8.4,0,0,0,1.9,1.9,0.13,0.1,0.1
+ENG-Premier League,1920,Manchester City,Oleksandr Zinchenko,UKR,DF,22,1996,14.2,0,16,3,18.8,1.13,0.21,0.0,0.0,26.0,0,0,0,0.5,0.5,0.03,-0.5,-0.5
+ENG-Premier League,1920,Manchester City,Phil Foden,ENG,"FW,MF",19,2000,10.0,5,34,14,41.2,3.4,1.4,0.15,0.36,16.8,0,0,0,3.3,3.3,0.1,1.7,1.7
+ENG-Premier League,1920,Manchester City,Raheem Sterling,ENG,FW,24,1994,29.5,20,97,36,37.1,3.29,1.22,0.21,0.56,14.0,1,0,2,18.2,16.4,0.17,1.8,3.6
+ENG-Premier League,1920,Manchester City,Riyad Mahrez,ALG,"FW,MF",28,1991,21.6,11,73,30,41.1,3.38,1.39,0.14,0.33,17.0,6,1,1,7.8,7.0,0.1,3.2,3.0
+ENG-Premier League,1920,Manchester City,Rodri,ESP,MF,23,1996,27.6,3,24,9,37.5,0.87,0.33,0.13,0.33,20.1,0,0,0,0.9,0.9,0.04,2.1,2.1
+ENG-Premier League,1920,Manchester City,Sergio Agüero,ARG,FW,31,1988,16.1,16,73,24,32.9,4.52,1.49,0.19,0.58,13.7,0,2,3,14.5,12.1,0.17,1.5,1.9
+ENG-Premier League,1920,Manchester City,Tommy Doyle,ENG,MF,17,2001,0.2,0,1,1,100.0,5.63,5.63,0.0,0.0,20.9,0,0,0,0.0,0.0,0.04,0.0,0.0
+ENG-Premier League,1920,Manchester City,İlkay Gündoğan,GER,MF,28,1990,22.4,2,31,6,19.4,1.38,0.27,0.03,0.17,21.5,2,1,2,4.0,2.4,0.08,-2.0,-1.4
+ENG-Premier League,1920,Manchester Utd,Aaron Wan-Bissaka,ENG,DF,21,1997,34.1,0,7,1,14.3,0.21,0.03,0.0,0.0,15.5,0,0,0,0.7,0.7,0.1,-0.7,-0.7
+ENG-Premier League,1920,Manchester Utd,Andreas Pereira,BRA,"MF,FW",23,1996,16.5,1,37,14,37.8,2.24,0.85,0.03,0.07,22.9,3,0,0,2.3,2.3,0.06,-1.3,-1.3
+ENG-Premier League,1920,Manchester Utd,Angel Gomes,ENG,MF,18,2000,0.2,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Manchester Utd,Anthony Martial,FRA,FW,23,1995,29.2,17,79,38,48.1,2.71,1.3,0.22,0.45,16.5,0,0,1,12.1,11.3,0.14,4.9,5.7
+ENG-Premier League,1920,Manchester Utd,Ashley Young,ENG,DF,34,1985,10.6,0,3,0,0.0,0.28,0.0,0.0,,21.3,0,0,0,0.1,0.1,0.03,-0.1,-0.1
+ENG-Premier League,1920,Manchester Utd,Axel Tuanzebe,COD,DF,21,1997,2.1,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Manchester Utd,Brandon Williams,ENG,DF,18,2000,11.2,1,6,2,33.3,0.54,0.18,0.17,0.5,13.1,0,0,0,1.0,1.0,0.16,0.0,0.0
+ENG-Premier League,1920,Manchester Utd,Bruno Fernandes,POR,MF,24,1994,13.2,8,40,14,35.0,3.04,1.06,0.1,0.29,24.6,7,4,4,6.2,3.0,0.08,1.8,1.0
+ENG-Premier League,1920,Manchester Utd,Daniel James,WAL,FW,21,1997,25.4,3,42,20,47.6,1.65,0.79,0.07,0.15,17.3,0,0,0,3.1,3.1,0.07,-0.1,-0.1
+ENG-Premier League,1920,Manchester Utd,David de Gea,ESP,GK,28,1990,38.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Manchester Utd,Diogo Dalot,POR,"DF,MF",20,1999,0.7,0,1,0,0.0,1.34,0.0,0.0,,9.0,0,0,0,0.3,0.3,0.29,-0.3,-0.3
+ENG-Premier League,1920,Manchester Utd,Eric Bailly,CIV,DF,25,1994,1.7,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Manchester Utd,Fred,BRA,MF,26,1993,24.0,0,40,10,25.0,1.66,0.42,0.0,0.0,24.5,3,0,0,1.7,1.7,0.04,-1.7,-1.7
+ENG-Premier League,1920,Manchester Utd,Harry Maguire,ENG,DF,26,1993,38.0,1,31,8,25.8,0.82,0.21,0.03,0.13,12.7,0,0,0,2.1,2.1,0.07,-1.1,-1.1
+ENG-Premier League,1920,Manchester Utd,James Garner,ENG,MF,18,2001,0.1,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Manchester Utd,Jesse Lingard,ENG,"MF,FW",26,1992,10.4,1,22,6,27.3,2.12,0.58,0.05,0.17,18.7,0,0,0,1.9,1.9,0.09,-0.9,-0.9
+ENG-Premier League,1920,Manchester Utd,Juan Mata,ESP,"MF,FW",31,1988,8.4,0,10,2,20.0,1.19,0.24,0.0,0.0,18.5,2,0,0,1.1,1.1,0.11,-1.1,-1.1
+ENG-Premier League,1920,Manchester Utd,Luke Shaw,ENG,DF,24,1995,19.3,0,11,5,45.5,0.57,0.26,0.0,0.0,18.2,0,0,0,0.7,0.7,0.06,-0.7,-0.7
+ENG-Premier League,1920,Manchester Utd,Marcos Rojo,ARG,DF,29,1990,1.4,0,1,0,0.0,0.74,0.0,0.0,,6.7,0,0,0,0.2,0.2,0.2,-0.2,-0.2
+ENG-Premier League,1920,Manchester Utd,Marcus Rashford,ENG,FW,21,1997,29.4,17,87,37,42.5,2.96,1.26,0.13,0.3,19.7,16,6,8,19.2,12.9,0.15,-2.2,-1.9
+ENG-Premier League,1920,Manchester Utd,Mason Greenwood,ENG,FW,17,2001,14.7,10,39,20,51.3,2.66,1.36,0.26,0.5,17.0,0,0,0,2.9,2.9,0.07,7.1,7.1
+ENG-Premier League,1920,Manchester Utd,Nemanja Matić,SRB,MF,30,1988,17.6,0,7,2,28.6,0.4,0.11,0.0,0.0,26.2,0,0,0,0.2,0.2,0.03,-0.2,-0.2
+ENG-Premier League,1920,Manchester Utd,Odion Ighalo,NGA,FW,30,1989,1.1,0,7,3,42.9,6.24,2.67,0.0,0.0,11.7,0,0,0,1.9,1.9,0.27,-1.9,-1.9
+ENG-Premier League,1920,Manchester Utd,Paul Pogba,FRA,MF,26,1993,13.4,1,21,7,33.3,1.57,0.52,0.05,0.14,22.5,2,0,1,2.4,1.6,0.08,-1.4,-0.6
+ENG-Premier League,1920,Manchester Utd,Phil Jones,ENG,DF,27,1992,1.5,0,2,1,50.0,1.33,0.67,0.0,0.0,10.5,0,0,0,0.1,0.1,0.07,-0.1,-0.1
+ENG-Premier League,1920,Manchester Utd,Scott McTominay,SCO,MF,22,1996,19.7,4,29,10,34.5,1.47,0.51,0.14,0.4,20.9,0,0,0,2.2,2.2,0.08,1.8,1.8
+ENG-Premier League,1920,Manchester Utd,Tahith Chong,NED,"FW,DF",19,1999,0.4,0,1,0,0.0,2.43,0.0,0.0,,14.1,0,0,0,0.1,0.1,0.05,-0.1,-0.1
+ENG-Premier League,1920,Manchester Utd,Timothy Fosu-Mensah,NED,DF,21,1998,1.5,0,1,0,0.0,0.66,0.0,0.0,,11.2,0,0,0,0.1,0.1,0.07,-0.1,-0.1
+ENG-Premier League,1920,Manchester Utd,Victor Lindelöf,SWE,DF,25,1994,34.4,1,6,1,16.7,0.17,0.03,0.17,1.0,11.4,0,0,0,0.3,0.3,0.06,0.7,0.7
+ENG-Premier League,1920,Newcastle Utd,Allan Saint-Maximin,FRA,"MF,FW",22,1997,20.7,3,46,21,45.7,2.22,1.01,0.07,0.14,22.5,0,0,0,3.3,3.3,0.07,-0.3,-0.3
+ENG-Premier League,1920,Newcastle Utd,Andy Carroll,ENG,FW,30,1989,7.0,0,16,3,18.8,2.28,0.43,0.0,0.0,14.3,0,0,0,1.2,1.2,0.08,-1.2,-1.2
+ENG-Premier League,1920,Newcastle Utd,Christian Atsu,GHA,"MF,FW",27,1992,8.3,0,5,1,20.0,0.6,0.12,0.0,0.0,19.1,0,0,0,0.2,0.2,0.04,-0.2,-0.2
+ENG-Premier League,1920,Newcastle Utd,Ciaran Clark,IRL,DF,29,1989,13.2,2,6,4,66.7,0.46,0.3,0.33,0.5,8.3,0,0,0,1.3,1.3,0.21,0.7,0.7
+ENG-Premier League,1920,Newcastle Utd,Danny Rose,ENG,DF,29,1990,9.6,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Newcastle Utd,DeAndre Yedlin,USA,DF,26,1993,10.4,1,1,1,100.0,0.1,0.1,1.0,1.0,3.4,0,0,0,0.8,0.8,0.75,0.2,0.2
+ENG-Premier League,1920,Newcastle Utd,Dwight Gayle,ENG,FW,28,1990,9.4,4,23,10,43.5,2.44,1.06,0.17,0.4,11.9,1,0,0,4.3,4.3,0.19,-0.3,-0.3
+ENG-Premier League,1920,Newcastle Utd,Emil Krafth,SWE,DF,24,1994,11.3,0,4,0,0.0,0.35,0.0,0.0,,13.5,0,0,0,0.3,0.3,0.08,-0.3,-0.3
+ENG-Premier League,1920,Newcastle Utd,Fabian Schär,SUI,"DF,MF",27,1991,18.6,2,20,6,30.0,1.08,0.32,0.1,0.33,21.4,1,0,0,1.4,1.4,0.07,0.6,0.6
+ENG-Premier League,1920,Newcastle Utd,Federico Fernández,ARG,DF,30,1989,29.1,2,15,7,46.7,0.52,0.24,0.13,0.29,11.5,0,0,0,1.4,1.4,0.1,0.6,0.6
+ENG-Premier League,1920,Newcastle Utd,Florian Lejeune,FRA,DF,28,1991,4.9,2,4,3,75.0,0.81,0.61,0.5,0.67,14.4,0,0,0,1.2,1.2,0.3,0.8,0.8
+ENG-Premier League,1920,Newcastle Utd,Isaac Hayden,ENG,MF,24,1995,24.7,1,18,3,16.7,0.73,0.12,0.06,0.33,20.9,0,0,0,1.2,1.2,0.07,-0.2,-0.2
+ENG-Premier League,1920,Newcastle Utd,Jamaal Lascelles,ENG,DF,25,1993,23.1,1,9,2,22.2,0.39,0.09,0.11,0.5,12.9,0,0,0,0.5,0.5,0.06,0.5,0.5
+ENG-Premier League,1920,Newcastle Utd,Javier Manquillo,ESP,DF,25,1994,17.8,0,1,0,0.0,0.06,0.0,0.0,,11.8,0,0,0,0.0,0.0,0.04,0.0,0.0
+ENG-Premier League,1920,Newcastle Utd,Jetro Willems,NED,DF,25,1994,16.6,2,14,6,42.9,0.84,0.36,0.14,0.33,19.6,0,0,0,0.6,0.6,0.04,1.4,1.4
+ENG-Premier League,1920,Newcastle Utd,Joelinton,BRA,FW,22,1996,29.8,2,50,15,30.0,1.68,0.5,0.04,0.13,14.9,0,0,0,5.5,5.5,0.11,-3.5,-3.5
+ENG-Premier League,1920,Newcastle Utd,Jonjo Shelvey,ENG,MF,27,1992,23.5,6,45,14,31.1,1.91,0.59,0.13,0.43,26.7,8,0,0,2.5,2.5,0.05,3.5,3.5
+ENG-Premier League,1920,Newcastle Utd,Kelland Watts,ENG,DF,19,1999,0.2,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Newcastle Utd,Ki Sung-yueng,KOR,MF,30,1989,1.5,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Newcastle Utd,Martin Dúbravka,SVK,GK,30,1989,38.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Newcastle Utd,Matt Ritchie,SCO,"DF,MF",29,1989,14.6,2,25,7,28.0,1.71,0.48,0.08,0.29,24.4,1,0,1,1.7,0.9,0.04,0.3,1.1
+ENG-Premier League,1920,Newcastle Utd,Matthew Longstaff,ENG,MF,19,2000,6.4,2,4,2,50.0,0.63,0.31,0.5,1.0,20.4,0,0,0,0.3,0.3,0.07,1.7,1.7
+ENG-Premier League,1920,Newcastle Utd,Miguel Almirón,PAR,"MF,FW",25,1994,33.6,4,56,17,30.4,1.67,0.51,0.07,0.24,16.2,0,0,0,6.7,6.7,0.12,-2.7,-2.7
+ENG-Premier League,1920,Newcastle Utd,Nabil Bentaleb,ALG,MF,24,1994,8.3,0,4,0,0.0,0.48,0.0,0.0,,29.5,0,0,0,0.1,0.1,0.03,-0.1,-0.1
+ENG-Premier League,1920,Newcastle Utd,Paul Dummett,WAL,DF,27,1991,13.6,0,2,2,100.0,0.15,0.15,0.0,0.0,20.4,0,0,0,0.1,0.1,0.03,-0.1,-0.1
+ENG-Premier League,1920,Newcastle Utd,Sean Longstaff,ENG,MF,21,1997,15.3,1,25,7,28.0,1.63,0.46,0.04,0.14,24.8,3,0,0,1.4,1.4,0.05,-0.4,-0.4
+ENG-Premier League,1920,Newcastle Utd,Valentino Lazaro,AUT,"DF,MF",23,1996,5.3,1,4,1,25.0,0.75,0.19,0.25,1.0,21.9,0,0,0,0.4,0.4,0.1,0.6,0.6
+ENG-Premier League,1920,Newcastle Utd,Yoshinori Mutō,JPN,"MF,FW",27,1992,2.4,0,1,0,0.0,0.42,0.0,0.0,,10.0,0,0,0,0.1,0.1,0.08,-0.1,-0.1
+ENG-Premier League,1920,Norwich City,Adam Idah,IRL,"FW,MF",18,2001,2.5,0,6,2,33.3,2.37,0.79,0.0,0.0,17.5,0,0,0,1.0,1.0,0.17,-1.0,-1.0
+ENG-Premier League,1920,Norwich City,Akin Famewo,ENG,MF,20,1998,0.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Norwich City,Alexander Tettey,NOR,"MF,DF",33,1986,26.0,1,23,3,13.0,0.89,0.12,0.04,0.33,24.7,0,0,0,0.8,0.8,0.04,0.2,0.2
+ENG-Premier League,1920,Norwich City,Ben Godfrey,ENG,DF,21,1998,29.4,0,15,6,40.0,0.51,0.2,0.0,0.0,18.2,0,0,0,0.7,0.7,0.05,-0.7,-0.7
+ENG-Premier League,1920,Norwich City,Christoph Zimmermann,GER,DF,26,1993,15.9,0,6,1,16.7,0.38,0.06,0.0,0.0,16.8,0,0,0,0.4,0.4,0.06,-0.4,-0.4
+ENG-Premier League,1920,Norwich City,Dennis Srbeny,GER,"MF,FW",25,1994,0.5,1,2,1,50.0,3.83,1.91,0.5,1.0,7.8,0,0,0,0.5,0.5,0.26,0.5,0.5
+ENG-Premier League,1920,Norwich City,Emi Buendía,ARG,"FW,MF",22,1996,27.4,1,40,11,27.5,1.46,0.4,0.03,0.09,22.8,10,0,0,2.2,2.2,0.06,-1.2,-1.2
+ENG-Premier League,1920,Norwich City,Grant Hanley,SCO,DF,27,1991,14.0,0,8,2,25.0,0.57,0.14,0.0,0.0,10.3,0,0,0,0.6,0.6,0.08,-0.6,-0.6
+ENG-Premier League,1920,Norwich City,Ibrahim Amadou,FRA,"DF,MF",26,1993,8.4,0,6,1,16.7,0.71,0.12,0.0,0.0,17.6,0,0,0,0.8,0.8,0.13,-0.8,-0.8
+ENG-Premier League,1920,Norwich City,Jamal Lewis,NIR,DF,21,1998,25.6,1,9,4,44.4,0.35,0.16,0.11,0.25,21.8,0,0,0,0.4,0.4,0.04,0.6,0.6
+ENG-Premier League,1920,Norwich City,Jordan Thomas,ENG,FW,18,2001,0.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Norwich City,Josh Martin,ENG,"FW,MF",17,2001,0.4,0,1,1,100.0,2.43,2.43,0.0,0.0,13.0,0,0,0,0.1,0.1,0.08,-0.1,-0.1
+ENG-Premier League,1920,Norwich City,Josip Drmić,SUI,FW,26,1992,7.2,1,14,5,35.7,1.95,0.7,0.07,0.2,13.4,0,0,0,3.1,3.1,0.22,-2.1,-2.1
+ENG-Premier League,1920,Norwich City,Kenny McLean,SCO,MF,27,1992,33.0,1,30,10,33.3,0.91,0.3,0.03,0.1,21.6,2,0,0,1.4,1.4,0.05,-0.4,-0.4
+ENG-Premier League,1920,Norwich City,Lukas Rupp,GER,"FW,MF",28,1991,7.7,0,4,2,50.0,0.52,0.26,0.0,0.0,17.7,0,0,0,0.9,0.9,0.21,-0.9,-0.9
+ENG-Premier League,1920,Norwich City,Marco Stiepermann,GER,MF,28,1991,13.1,0,19,6,31.6,1.45,0.46,0.0,0.0,17.3,0,0,0,1.5,1.5,0.08,-1.5,-1.5
+ENG-Premier League,1920,Norwich City,Mario Vrančić,BIH,MF,30,1989,7.1,1,14,3,21.4,1.98,0.42,0.07,0.33,19.2,2,0,0,1.5,1.5,0.11,-0.5,-0.5
+ENG-Premier League,1920,Norwich City,Max Aarons,ENG,DF,19,2000,36.0,0,14,4,28.6,0.39,0.11,0.0,0.0,17.2,0,0,0,0.6,0.6,0.04,-0.6,-0.6
+ENG-Premier League,1920,Norwich City,Michael McGovern,NIR,GK,35,1984,1.8,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Norwich City,Moritz Leitner,GER,MF,26,1992,7.6,0,8,0,0.0,1.05,0.0,0.0,,23.1,0,0,0,0.3,0.3,0.04,-0.3,-0.3
+ENG-Premier League,1920,Norwich City,Ondrej Duda,SVK,MF,24,1994,8.0,0,10,3,30.0,1.24,0.37,0.0,0.0,22.1,2,0,0,0.5,0.5,0.05,-0.5,-0.5
+ENG-Premier League,1920,Norwich City,Onel Hernández,CUB,"FW,MF",26,1993,15.4,1,29,8,27.6,1.89,0.52,0.03,0.13,18.2,0,0,0,2.2,2.2,0.08,-1.2,-1.2
+ENG-Premier League,1920,Norwich City,Patrick Roberts,ENG,"FW,MF",22,1997,0.3,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Norwich City,Ralf Fährmann,GER,GK,30,1988,0.2,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Norwich City,Sam Byram,ENG,DF,25,1993,14.4,0,15,2,13.3,1.04,0.14,0.0,0.0,11.4,0,0,0,1.4,1.4,0.09,-1.4,-1.4
+ENG-Premier League,1920,Norwich City,Teemu Pukki,FIN,FW,29,1990,32.1,11,78,33,42.3,2.43,1.03,0.12,0.27,15.5,0,2,2,11.2,9.7,0.12,-0.2,-0.7
+ENG-Premier League,1920,Norwich City,Tim Krul,NED,GK,31,1988,36.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Norwich City,Timm Klose,SUI,DF,31,1988,6.5,0,3,0,0.0,0.46,0.0,0.0,,12.2,0,0,0,0.2,0.2,0.07,-0.2,-0.2
+ENG-Premier League,1920,Norwich City,Todd Cantwell,ENG,"FW,MF",21,1998,27.7,6,42,16,38.1,1.52,0.58,0.14,0.38,16.1,0,0,0,5.4,5.4,0.13,0.6,0.6
+ENG-Premier League,1920,Norwich City,Tom Trybull,GER,MF,26,1993,12.6,0,11,2,18.2,0.88,0.16,0.0,0.0,18.4,0,0,0,0.5,0.5,0.04,-0.5,-0.5
+ENG-Premier League,1920,Sheffield Utd,Ben Osborn,ENG,"MF,DF",24,1994,6.6,0,3,1,33.3,0.45,0.15,0.0,0.0,13.8,0,0,0,0.3,0.3,0.08,-0.3,-0.3
+ENG-Premier League,1920,Sheffield Utd,Billy Sharp,ENG,FW,33,1986,11.7,3,16,7,43.8,1.37,0.6,0.19,0.43,9.6,0,0,0,3.8,3.8,0.24,-0.8,-0.8
+ENG-Premier League,1920,Sheffield Utd,Callum Robinson,IRL,"FW,MF",24,1995,7.5,1,12,4,33.3,1.6,0.53,0.08,0.25,14.9,0,0,0,1.6,1.6,0.13,-0.6,-0.6
+ENG-Premier League,1920,Sheffield Utd,Chris Basham,ENG,DF,31,1988,36.0,0,6,0,0.0,0.17,0.0,0.0,,13.5,0,0,0,0.3,0.3,0.05,-0.3,-0.3
+ENG-Premier League,1920,Sheffield Utd,David McGoldrick,IRL,FW,31,1987,20.2,2,46,20,43.5,2.28,0.99,0.04,0.1,14.5,0,0,0,8.0,8.0,0.17,-6.0,-6.0
+ENG-Premier League,1920,Sheffield Utd,Dean Henderson,ENG,GK,22,1997,36.0,0,1,0,0.0,0.03,0.0,0.0,,9.5,0,0,0,0.1,0.1,0.06,-0.1,-0.1
+ENG-Premier League,1920,Sheffield Utd,Enda Stevens,IRL,DF,29,1990,37.2,2,22,4,18.2,0.59,0.11,0.09,0.5,17.8,0,0,0,1.3,1.3,0.06,0.7,0.7
+ENG-Premier League,1920,Sheffield Utd,George Baldock,GRE,DF,26,1993,38.0,2,13,4,30.8,0.34,0.11,0.15,0.5,16.9,0,0,0,0.6,0.6,0.05,1.4,1.4
+ENG-Premier League,1920,Sheffield Utd,Jack O'Connell,ENG,DF,25,1994,32.4,0,14,2,14.3,0.43,0.06,0.0,0.0,10.9,0,0,0,1.0,1.0,0.07,-1.0,-1.0
+ENG-Premier League,1920,Sheffield Utd,Jack Robinson,ENG,DF,25,1993,5.6,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Sheffield Utd,Jack Rodwell,ENG,MF,28,1991,0.2,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Sheffield Utd,John Egan,IRL,DF,26,1992,35.4,2,27,4,14.8,0.76,0.11,0.07,0.5,9.4,0,0,0,2.7,2.7,0.1,-0.7,-0.7
+ENG-Premier League,1920,Sheffield Utd,John Fleck,SCO,MF,27,1991,28.0,5,31,11,35.5,1.11,0.39,0.16,0.45,20.1,0,0,0,3.1,3.1,0.1,1.9,1.9
+ENG-Premier League,1920,Sheffield Utd,John Lundstram,ENG,MF,25,1994,27.3,5,43,10,23.3,1.57,0.37,0.12,0.5,17.6,0,0,0,5.3,5.3,0.12,-0.3,-0.3
+ENG-Premier League,1920,Sheffield Utd,Kieron Freeman,WAL,FW,27,1992,0.1,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Sheffield Utd,Leon Clarke,ENG,"FW,MF",34,1985,0.4,0,1,0,0.0,2.57,0.0,0.0,,9.6,0,0,0,0.5,0.5,0.46,-0.5,-0.5
+ENG-Premier League,1920,Sheffield Utd,Luke Freeman,ENG,MF,27,1992,4.1,0,3,0,0.0,0.74,0.0,0.0,,29.5,0,0,0,0.1,0.1,0.03,-0.1,-0.1
+ENG-Premier League,1920,Sheffield Utd,Lys Mousset,FRA,FW,23,1996,13.8,6,37,9,24.3,2.69,0.65,0.16,0.67,16.2,0,0,0,5.5,5.5,0.15,0.5,0.5
+ENG-Premier League,1920,Sheffield Utd,Muhamed Bešić,BIH,MF,26,1992,2.8,0,4,2,50.0,1.44,0.72,0.0,0.0,20.9,0,0,0,0.2,0.2,0.04,-0.2,-0.2
+ENG-Premier League,1920,Sheffield Utd,Oliver McBurnie,SCO,FW,23,1996,23.5,6,50,24,48.0,2.13,1.02,0.12,0.25,10.3,0,0,0,7.7,7.7,0.15,-1.7,-1.7
+ENG-Premier League,1920,Sheffield Utd,Oliver Norwood,NIR,MF,28,1991,34.3,1,16,5,31.3,0.47,0.15,0.0,0.0,27.8,4,1,1,1.5,0.7,0.04,-0.5,-0.7
+ENG-Premier League,1920,Sheffield Utd,Phil Jagielka,ENG,DF,36,1982,2.7,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Sheffield Utd,Ravel Morrison,JAM,MF,26,1993,0.1,0,1,0,0.0,6.92,0.0,0.0,,12.9,0,0,0,0.0,0.0,0.05,0.0,0.0
+ENG-Premier League,1920,Sheffield Utd,Richairo Živković,CUW,FW,22,1996,1.2,0,1,0,0.0,0.8,0.0,0.0,,11.6,0,0,0,0.1,0.1,0.07,-0.1,-0.1
+ENG-Premier League,1920,Sheffield Utd,Sander Berge,NOR,MF,21,1998,10.5,1,5,2,40.0,0.48,0.19,0.2,0.5,13.5,0,0,0,0.6,0.6,0.12,0.4,0.4
+ENG-Premier League,1920,Sheffield Utd,Simon Moore,ENG,GK,29,1990,2.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Southampton,Alex McCarthy,ENG,GK,29,1989,28.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Southampton,Angus Gunn,SCO,GK,23,1996,10.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Southampton,Che Adams,SCO,FW,23,1996,12.3,4,36,9,25.0,2.92,0.73,0.11,0.44,15.2,0,0,0,5.3,5.3,0.15,-1.3,-1.3
+ENG-Premier League,1920,Southampton,Cédric Soares,POR,DF,27,1991,14.5,0,9,4,44.4,0.62,0.28,0.0,0.0,20.2,0,0,0,0.6,0.6,0.07,-0.6,-0.6
+ENG-Premier League,1920,Southampton,Danny Ings,ENG,FW,27,1992,31.2,22,91,35,38.5,2.92,1.12,0.23,0.6,13.9,0,1,2,16.2,14.7,0.16,5.8,6.3
+ENG-Premier League,1920,Southampton,Jack Stephens,ENG,DF,25,1994,27.2,1,6,1,16.7,0.22,0.04,0.17,1.0,9.2,0,0,0,1.0,1.0,0.17,0.0,0.0
+ENG-Premier League,1920,Southampton,Jake Vokins,ENG,DF,19,2000,1.0,0,1,0,0.0,1.0,0.0,0.0,,31.3,0,0,0,0.0,0.0,0.02,0.0,0.0
+ENG-Premier League,1920,Southampton,James Ward-Prowse,ENG,"MF,DF",24,1994,38.0,5,54,23,42.6,1.42,0.61,0.07,0.17,23.9,24,1,3,7.3,4.8,0.09,-2.3,-0.8
+ENG-Premier League,1920,Southampton,Jan Bednarek,POL,DF,23,1996,34.0,1,7,1,14.3,0.21,0.03,0.14,1.0,7.8,0,0,0,1.1,1.1,0.16,-0.1,-0.1
+ENG-Premier League,1920,Southampton,Jannik Vestergaard,DEN,DF,26,1992,16.6,1,12,5,41.7,0.72,0.3,0.08,0.2,11.7,0,0,0,1.4,1.4,0.11,-0.4,-0.4
+ENG-Premier League,1920,Southampton,Kevin Danso,AUT,DF,20,1998,3.1,0,1,0,0.0,0.32,0.0,0.0,,10.5,0,0,0,0.1,0.1,0.06,-0.1,-0.1
+ENG-Premier League,1920,Southampton,Kyle Walker-Peters,ENG,DF,22,1997,7.8,0,2,0,0.0,0.26,0.0,0.0,,15.6,0,0,0,0.1,0.1,0.05,-0.1,-0.1
+ENG-Premier League,1920,Southampton,Maya Yoshida,JPN,DF,30,1988,6.2,0,5,3,60.0,0.8,0.48,0.0,0.0,11.6,0,0,0,0.7,0.7,0.13,-0.7,-0.7
+ENG-Premier League,1920,Southampton,Michael Obafemi,IRL,FW,19,2000,7.4,3,12,5,41.7,1.62,0.68,0.25,0.6,14.4,0,0,0,1.8,1.8,0.15,1.2,1.2
+ENG-Premier League,1920,Southampton,Moussa Djenepo,MLI,"MF,DF",21,1998,10.3,2,20,7,35.0,1.94,0.68,0.1,0.29,18.1,0,0,0,2.4,2.4,0.12,-0.4,-0.4
+ENG-Premier League,1920,Southampton,Nathan Redmond,ENG,"MF,FW",25,1994,30.7,4,59,21,35.6,1.92,0.68,0.07,0.19,18.9,2,0,0,5.1,5.1,0.09,-1.1,-1.1
+ENG-Premier League,1920,Southampton,Nathan Tella,NGA,FW,20,1999,0.0,0,1,1,100.0,30.0,30.0,0.0,0.0,17.7,0,0,0,0.0,0.0,0.04,0.0,0.0
+ENG-Premier League,1920,Southampton,Oriol Romeu,ESP,MF,27,1991,20.7,0,8,0,0.0,0.39,0.0,0.0,,23.7,0,0,0,0.2,0.2,0.03,-0.2,-0.2
+ENG-Premier League,1920,Southampton,Pierre Højbjerg,DEN,MF,23,1995,30.6,0,46,11,23.9,1.5,0.36,0.0,0.0,22.0,0,0,0,3.2,3.2,0.07,-3.2,-3.2
+ENG-Premier League,1920,Southampton,Ryan Bertrand,ENG,DF,29,1989,30.5,1,18,3,16.7,0.59,0.1,0.06,0.33,19.4,1,0,0,1.7,1.7,0.1,-0.7,-0.7
+ENG-Premier League,1920,Southampton,Shane Long,IRL,FW,32,1987,15.5,2,33,13,39.4,2.13,0.84,0.06,0.15,11.3,0,0,0,4.8,4.8,0.15,-2.8,-2.8
+ENG-Premier League,1920,Southampton,Sofiane Boufal,MAR,"MF,FW",25,1993,8.5,0,18,7,38.9,2.12,0.82,0.0,0.0,21.3,0,0,0,1.0,1.0,0.06,-1.0,-1.0
+ENG-Premier League,1920,Southampton,Stuart Armstrong,SCO,MF,27,1992,19.1,5,46,20,43.5,2.41,1.05,0.11,0.25,21.2,0,0,0,2.8,2.8,0.06,2.2,2.2
+ENG-Premier League,1920,Southampton,William Smallbone,IRL,MF,19,2000,4.4,0,6,0,0.0,1.37,0.0,0.0,,22.8,0,0,0,0.3,0.3,0.04,-0.3,-0.3
+ENG-Premier League,1920,Southampton,Yan Valery,TUN,DF,20,1999,8.7,0,3,2,66.7,0.35,0.23,0.0,0.0,15.5,0,0,0,0.3,0.3,0.08,-0.3,-0.3
+ENG-Premier League,1920,Tottenham,Ben Davies,WAL,DF,26,1993,15.9,0,7,1,14.3,0.44,0.06,0.0,0.0,23.1,0,0,0,0.2,0.2,0.03,-0.2,-0.2
+ENG-Premier League,1920,Tottenham,Christian Eriksen,DEN,"MF,FW",27,1992,12.2,2,26,9,34.6,2.13,0.74,0.08,0.22,25.1,7,0,0,1.9,1.9,0.07,0.1,0.1
+ENG-Premier League,1920,Tottenham,Danny Rose,ENG,DF,29,1990,9.9,0,2,0,0.0,0.2,0.0,0.0,,19.0,0,0,0,0.1,0.1,0.04,-0.1,-0.1
+ENG-Premier League,1920,Tottenham,Davinson Sánchez,COL,DF,23,1996,27.0,0,7,3,42.9,0.26,0.11,0.0,0.0,10.9,0,0,0,0.6,0.6,0.09,-0.6,-0.6
+ENG-Premier League,1920,Tottenham,Dele Alli,ENG,"MF,FW",23,1996,20.5,8,41,18,43.9,2.0,0.88,0.17,0.39,14.9,0,1,1,8.1,7.3,0.18,-0.1,-0.3
+ENG-Premier League,1920,Tottenham,Eric Dier,ENG,"DF,MF",25,1994,14.9,0,8,1,12.5,0.54,0.07,0.0,0.0,15.6,1,0,0,0.9,0.9,0.11,-0.9,-0.9
+ENG-Premier League,1920,Tottenham,Gedson Fernandes,POR,"MF,DF",20,1999,0.8,0,1,0,0.0,1.32,0.0,0.0,,26.4,0,0,0,0.0,0.0,0.03,0.0,0.0
+ENG-Premier League,1920,Tottenham,Georges-Kévin N'Koudou,CMR,FW,24,1995,0.0,0,1,0,0.0,30.0,0.0,0.0,,17.7,0,0,0,0.0,0.0,0.04,0.0,0.0
+ENG-Premier League,1920,Tottenham,Giovani Lo Celso,ARG,"MF,FW",23,1996,16.6,0,18,3,16.7,1.09,0.18,0.0,0.0,22.0,1,0,0,1.3,1.3,0.07,-1.3,-1.3
+ENG-Premier League,1920,Tottenham,Harry Kane,ENG,FW,26,1993,28.7,18,79,35,44.3,2.75,1.22,0.2,0.46,19.2,7,2,2,12.5,10.9,0.14,5.5,5.1
+ENG-Premier League,1920,Tottenham,Harry Winks,ENG,MF,23,1996,24.7,0,14,2,14.3,0.57,0.08,0.0,0.0,25.4,0,0,0,0.5,0.5,0.04,-0.5,-0.5
+ENG-Premier League,1920,Tottenham,Hugo Lloris,FRA,GK,32,1986,20.1,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Tottenham,Jan Vertonghen,BEL,DF,32,1987,18.3,1,4,2,50.0,0.22,0.11,0.25,0.5,12.0,0,0,0,0.4,0.4,0.1,0.6,0.6
+ENG-Premier League,1920,Tottenham,Japhet Tanganga,ENG,DF,20,1999,5.8,0,3,1,33.3,0.51,0.17,0.0,0.0,27.1,0,0,0,0.1,0.1,0.02,-0.1,-0.1
+ENG-Premier League,1920,Tottenham,Juan Foyth,ARG,DF,21,1998,0.8,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Tottenham,Kyle Walker-Peters,ENG,DF,22,1997,2.7,0,1,0,0.0,0.37,0.0,0.0,,22.7,0,0,0,0.0,0.0,0.03,0.0,0.0
+ENG-Premier League,1920,Tottenham,Lucas Moura,BRA,"FW,MF",26,1992,24.9,4,56,14,25.0,2.25,0.56,0.07,0.29,17.5,0,0,0,5.6,5.6,0.1,-1.6,-1.6
+ENG-Premier League,1920,Tottenham,Moussa Sissoko,FRA,MF,29,1989,27.2,2,15,4,26.7,0.55,0.15,0.13,0.5,15.2,0,0,0,2.2,2.2,0.14,-0.2,-0.2
+ENG-Premier League,1920,Tottenham,Oliver Skipp,ENG,MF,18,2000,0.9,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Tottenham,Paulo Gazzaniga,ARG,GK,27,1992,17.9,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Tottenham,Ryan Sessegnon,ENG,"DF,FW",19,2000,3.8,0,1,0,0.0,0.26,0.0,0.0,,17.0,0,0,0,0.1,0.1,0.07,-0.1,-0.1
+ENG-Premier League,1920,Tottenham,Serge Aurier,CIV,DF,26,1992,30.0,1,13,4,30.8,0.43,0.13,0.08,0.25,19.1,0,0,0,0.5,0.5,0.04,0.5,0.5
+ENG-Premier League,1920,Tottenham,Son Heung-min,KOR,FW,27,1992,27.5,11,80,37,46.3,2.91,1.34,0.14,0.3,17.2,1,0,1,8.9,8.0,0.1,2.1,3.0
+ENG-Premier League,1920,Tottenham,Steven Bergwijn,NED,"FW,MF",21,1997,7.8,3,9,4,44.4,1.15,0.51,0.33,0.75,15.1,0,0,0,1.0,1.0,0.12,2.0,2.0
+ENG-Premier League,1920,Tottenham,Tanguy Ndombele,FRA,MF,22,1996,11.2,2,9,4,44.4,0.8,0.36,0.22,0.5,25.6,0,0,0,0.4,0.4,0.04,1.6,1.6
+ENG-Premier League,1920,Tottenham,Toby Alderweireld,BEL,DF,30,1989,32.9,2,16,4,25.0,0.49,0.12,0.13,0.5,12.6,0,0,0,0.7,0.7,0.05,1.3,1.3
+ENG-Premier League,1920,Tottenham,Troy Parrott,IRL,FW,17,2002,0.1,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Tottenham,Victor Wanyama,KEN,MF,28,1991,0.3,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Tottenham,Érik Lamela,ARG,"MF,FW",27,1992,13.5,2,29,8,27.6,2.15,0.59,0.07,0.25,19.5,4,0,0,2.9,2.9,0.11,-0.9,-0.9
+ENG-Premier League,1920,Watford,Abdoulaye Doucouré,MLI,MF,26,1993,35.1,4,61,12,19.7,1.74,0.34,0.07,0.33,18.3,0,0,0,5.2,5.2,0.08,-1.2,-1.2
+ENG-Premier League,1920,Watford,Adam Masina,MAR,DF,25,1994,20.2,1,15,3,20.0,0.74,0.15,0.07,0.33,21.1,1,0,0,0.9,0.9,0.06,0.1,0.1
+ENG-Premier League,1920,Watford,Adrian Mariappa,JAM,DF,32,1986,16.8,0,3,0,0.0,0.18,0.0,0.0,,11.1,0,0,0,0.2,0.2,0.08,-0.2,-0.2
+ENG-Premier League,1920,Watford,Andre Gray,JAM,FW,28,1991,8.4,2,19,6,31.6,2.26,0.72,0.11,0.33,12.7,0,0,0,2.4,2.4,0.13,-0.4,-0.4
+ENG-Premier League,1920,Watford,Ben Foster,ENG,GK,36,1983,38.0,0,1,1,100.0,0.03,0.03,0.0,0.0,10.0,0,0,0,0.1,0.1,0.1,-0.1,-0.1
+ENG-Premier League,1920,Watford,Christian Kabasele,BEL,DF,28,1991,25.0,0,9,1,11.1,0.36,0.04,0.0,0.0,10.4,0,0,0,0.9,0.9,0.1,-0.9,-0.9
+ENG-Premier League,1920,Watford,Craig Cathcart,NIR,DF,30,1989,27.6,0,2,1,50.0,0.07,0.04,0.0,0.0,10.8,0,0,0,0.2,0.2,0.1,-0.2,-0.2
+ENG-Premier League,1920,Watford,Craig Dawson,ENG,DF,29,1990,26.2,2,26,7,26.9,0.99,0.27,0.08,0.29,10.6,0,0,0,3.0,3.0,0.12,-1.0,-1.0
+ENG-Premier League,1920,Watford,Danny Welbeck,ENG,"FW,MF",28,1990,9.1,2,22,9,40.9,2.41,0.99,0.09,0.22,11.0,0,0,0,3.9,3.9,0.18,-1.9,-1.9
+ENG-Premier League,1920,Watford,Daryl Janmaat,NED,DF,30,1989,6.7,0,4,0,0.0,0.59,0.0,0.0,,17.6,0,0,0,0.3,0.3,0.07,-0.3,-0.3
+ENG-Premier League,1920,Watford,Dimitri Foulquier,FRA,"DF,MF",26,1993,0.7,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Watford,Domingos Quina,POR,"MF,FW",19,1999,0.2,0,1,1,100.0,4.09,4.09,0.0,0.0,27.3,0,0,0,0.0,0.0,0.03,0.0,0.0
+ENG-Premier League,1920,Watford,Gerard Deulofeu,ESP,FW,25,1994,23.3,4,63,20,31.7,2.7,0.86,0.05,0.15,18.8,8,1,1,6.3,5.5,0.09,-2.3,-2.5
+ENG-Premier League,1920,Watford,Ignacio Pussetto,ARG,"FW,MF",23,1995,0.8,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Watford,Isaac Success,NGA,"FW,MF",23,1996,0.8,0,1,1,100.0,1.29,1.29,0.0,0.0,10.7,0,0,0,0.1,0.1,0.05,-0.1,-0.1
+ENG-Premier League,1920,Watford,Ismaila Sarr,SEN,"FW,MF",21,1998,22.5,5,44,13,29.5,1.95,0.58,0.11,0.38,15.8,0,0,0,6.1,6.1,0.14,-1.1,-1.1
+ENG-Premier League,1920,Watford,José Holebas,GRE,DF,35,1984,11.4,0,6,3,50.0,0.53,0.26,0.0,0.0,19.8,1,0,0,0.3,0.3,0.06,-0.3,-0.3
+ENG-Premier League,1920,Watford,João Pedro,BRA,"FW,MF",17,2001,0.3,0,1,0,0.0,3.6,0.0,0.0,,17.3,0,0,0,0.0,0.0,0.05,0.0,0.0
+ENG-Premier League,1920,Watford,Kiko Femenía,ESP,DF,28,1991,24.9,0,5,1,20.0,0.2,0.04,0.0,0.0,27.2,0,0,0,0.1,0.1,0.03,-0.1,-0.1
+ENG-Premier League,1920,Watford,Nathaniel Chalobah,ENG,MF,24,1994,10.3,0,9,0,0.0,0.87,0.0,0.0,,23.3,2,0,0,0.5,0.5,0.05,-0.5,-0.5
+ENG-Premier League,1920,Watford,Roberto Pereyra,ARG,"FW,MF",28,1991,18.3,3,20,8,40.0,1.09,0.44,0.1,0.25,19.1,4,1,1,3.1,2.3,0.12,-0.1,-0.3
+ENG-Premier League,1920,Watford,Sebastian Prödl,AUT,DF,32,1987,0.6,0,2,0,0.0,3.21,0.0,0.0,,10.7,0,0,0,0.1,0.1,0.05,-0.1,-0.1
+ENG-Premier League,1920,Watford,Tom Cleverley,ENG,MF,29,1989,10.8,1,17,5,29.4,1.58,0.46,0.06,0.2,17.8,0,0,0,2.1,2.1,0.12,-1.1,-1.1
+ENG-Premier League,1920,Watford,Troy Deeney,ENG,FW,31,1988,24.7,10,39,16,41.0,1.58,0.65,0.13,0.31,16.0,0,5,6,10.5,5.8,0.15,-0.5,-0.8
+ENG-Premier League,1920,Watford,Will Hughes,ENG,MF,24,1995,25.0,1,27,3,11.1,1.08,0.12,0.04,0.33,19.3,0,0,0,2.3,2.3,0.08,-1.3,-1.3
+ENG-Premier League,1920,Watford,Étienne Capoue,FRA,MF,31,1988,29.2,0,19,1,5.3,0.65,0.03,0.0,0.0,26.9,2,0,0,0.8,0.8,0.04,-0.8,-0.8
+ENG-Premier League,1920,West Ham,Aaron Cresswell,ENG,DF,29,1989,30.3,3,17,5,29.4,0.56,0.17,0.18,0.6,21.7,7,0,0,1.4,1.4,0.08,1.6,1.6
+ENG-Premier League,1920,West Ham,Albian Ajeti,SUI,FW,22,1997,1.5,0,3,0,0.0,1.94,0.0,0.0,,15.7,0,0,0,0.2,0.2,0.06,-0.2,-0.2
+ENG-Premier League,1920,West Ham,Andriy Yarmolenko,UKR,"MF,FW",29,1989,11.0,5,26,13,50.0,2.36,1.18,0.19,0.38,17.8,2,0,0,2.4,2.4,0.09,2.6,2.6
+ENG-Premier League,1920,West Ham,Angelo Ogbonna,ITA,DF,31,1988,31.0,2,13,4,30.8,0.42,0.13,0.15,0.5,11.0,0,0,0,1.8,1.8,0.14,0.2,0.2
+ENG-Premier League,1920,West Ham,Arthur Masuaku,COD,DF,25,1993,10.4,0,5,2,40.0,0.48,0.19,0.0,0.0,27.7,0,0,0,0.1,0.1,0.02,-0.1,-0.1
+ENG-Premier League,1920,West Ham,Ben Johnson,ENG,DF,19,2000,3.0,0,1,0,0.0,0.33,0.0,0.0,,28.8,0,0,0,0.0,0.0,0.01,0.0,0.0
+ENG-Premier League,1920,West Ham,Carlos Sánchez,COL,MF,33,1986,1.3,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,West Ham,Darren Randolph,IRL,GK,32,1987,2.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,West Ham,David Martin,ENG,GK,33,1986,4.8,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,West Ham,Declan Rice,ENG,MF,20,1999,38.0,1,31,9,29.0,0.82,0.24,0.03,0.11,23.7,0,0,0,1.3,1.3,0.04,-0.3,-0.3
+ENG-Premier League,1920,West Ham,Fabián Balbuena,PAR,DF,27,1991,13.1,1,10,4,40.0,0.76,0.31,0.1,0.25,8.9,0,0,0,1.5,1.5,0.15,-0.5,-0.5
+ENG-Premier League,1920,West Ham,Felipe Anderson,BRA,"MF,FW",26,1993,16.6,1,23,8,34.8,1.38,0.48,0.04,0.13,17.1,0,0,0,2.5,2.5,0.11,-1.5,-1.5
+ENG-Premier League,1920,West Ham,Issa Diop,FRA,DF,22,1997,30.7,3,15,6,40.0,0.49,0.2,0.2,0.5,9.2,0,0,0,1.5,1.5,0.1,1.5,1.5
+ENG-Premier League,1920,West Ham,Jack Wilshere,ENG,MF,27,1992,2.4,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,West Ham,Jarrod Bowen,ENG,"FW,MF",22,1996,10.2,1,24,7,29.2,2.36,0.69,0.04,0.14,18.0,0,0,0,2.3,2.3,0.09,-1.3,-1.3
+ENG-Premier League,1920,West Ham,Javier Hernández,MEX,FW,31,1988,1.2,1,3,2,66.7,2.52,1.68,0.33,0.5,17.3,1,0,0,1.0,1.0,0.33,0.0,0.0
+ENG-Premier League,1920,West Ham,Jeremy Ngakia,ENG,DF,18,2000,4.9,0,1,1,100.0,0.2,0.2,0.0,0.0,33.2,0,0,0,0.0,0.0,0.02,0.0,0.0
+ENG-Premier League,1920,West Ham,Manuel Lanzini,ARG,"MF,FW",26,1993,15.3,0,23,7,30.4,1.5,0.46,0.0,0.0,19.0,3,0,0,2.2,2.2,0.09,-2.2,-2.2
+ENG-Premier League,1920,West Ham,Mark Noble,ENG,MF,32,1987,29.7,4,14,3,21.4,0.47,0.1,0.07,0.33,25.8,0,3,3,2.9,0.6,0.04,1.1,0.4
+ENG-Premier League,1920,West Ham,Michail Antonio,JAM,FW,29,1990,19.6,10,67,30,44.8,3.41,1.53,0.13,0.3,13.7,0,1,1,12.9,12.1,0.19,-2.9,-3.1
+ENG-Premier League,1920,West Ham,Nathan Holland,ENG,MF,21,1998,0.4,0,1,1,100.0,2.73,2.73,0.0,0.0,28.7,0,0,0,0.0,0.0,0.02,0.0,0.0
+ENG-Premier League,1920,West Ham,Pablo Fornals,ESP,"MF,FW",23,1996,24.1,2,36,11,30.6,1.49,0.46,0.06,0.18,18.1,0,0,0,2.3,2.3,0.06,-0.3,-0.3
+ENG-Premier League,1920,West Ham,Pablo Zabaleta,ARG,DF,34,1985,6.6,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,West Ham,Robert Snodgrass,SCO,"MF,FW",31,1987,16.8,5,21,10,47.6,1.25,0.6,0.24,0.5,16.8,0,0,0,2.5,2.5,0.12,2.5,2.5
+ENG-Premier League,1920,West Ham,Roberto,ESP,GK,33,1986,7.6,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,West Ham,Ryan Fredericks,ENG,DF,26,1992,24.9,0,3,0,0.0,0.12,0.0,0.0,,20.6,0,0,0,0.1,0.1,0.05,-0.1,-0.1
+ENG-Premier League,1920,West Ham,Sébastien Haller,CIV,FW,25,1994,25.2,7,56,26,46.4,2.22,1.03,0.13,0.27,11.4,0,0,0,8.0,8.0,0.14,-1.0,-1.0
+ENG-Premier League,1920,West Ham,Tomáš Souček,CZE,MF,24,1995,11.6,3,20,7,35.0,1.73,0.61,0.15,0.43,12.8,0,0,0,2.8,2.8,0.14,0.2,0.2
+ENG-Premier League,1920,West Ham,Łukasz Fabiański,POL,GK,34,1985,23.5,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Wolves,Adama Traoré,ESP,"FW,DF",23,1996,28.9,4,43,12,27.9,1.49,0.41,0.09,0.33,19.8,0,0,0,3.8,3.8,0.09,0.2,0.2
+ENG-Premier League,1920,Wolves,Bruno Jordão,POR,FW,20,1998,0.1,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Wolves,Conor Coady,ENG,DF,26,1993,38.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Wolves,Daniel Podence,POR,"FW,MF",23,1995,3.2,1,10,3,30.0,3.11,0.93,0.1,0.33,14.0,0,0,0,1.2,1.2,0.12,-0.2,-0.2
+ENG-Premier League,1920,Wolves,Diogo Jota,POR,FW,22,1996,25.4,7,69,26,37.7,2.72,1.02,0.1,0.27,14.2,0,0,0,11.5,11.5,0.17,-4.5,-4.5
+ENG-Premier League,1920,Wolves,Jesús Vallejo,ESP,DF,22,1997,1.8,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Wolves,Jonny Castro,ESP,"MF,DF",25,1994,32.1,2,18,5,27.8,0.56,0.16,0.11,0.4,19.0,0,0,0,1.6,1.6,0.09,0.4,0.4
+ENG-Premier League,1920,Wolves,João Moutinho,POR,MF,32,1986,34.5,1,22,6,27.3,0.64,0.17,0.05,0.17,25.0,4,0,0,0.9,0.9,0.04,0.1,0.1
+ENG-Premier League,1920,Wolves,Leander Dendoncker,BEL,"MF,DF",24,1995,31.1,4,20,5,25.0,0.64,0.16,0.2,0.8,14.7,0,0,0,1.8,1.8,0.09,2.2,2.2
+ENG-Premier League,1920,Wolves,Matt Doherty,IRL,"MF,DF",27,1992,31.5,4,35,15,42.9,1.11,0.48,0.11,0.27,11.2,0,0,0,6.9,6.9,0.2,-2.9,-2.9
+ENG-Premier League,1920,Wolves,Max Kilman,ENG,DF,22,1997,2.1,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Wolves,Morgan Gibbs-White,ENG,"MF,FW",19,2000,1.4,0,2,0,0.0,1.4,0.0,0.0,,14.2,0,0,0,0.1,0.1,0.05,-0.1,-0.1
+ENG-Premier League,1920,Wolves,Patrick Cutrone,ITA,FW,21,1998,3.3,2,11,4,36.4,3.33,1.21,0.18,0.5,13.8,0,0,0,2.2,2.2,0.2,-0.2,-0.2
+ENG-Premier League,1920,Wolves,Pedro Neto,POR,"FW,MF",19,2000,10.4,3,17,6,35.3,1.63,0.58,0.18,0.5,16.9,0,0,0,2.2,2.2,0.13,0.8,0.8
+ENG-Premier League,1920,Wolves,Raúl Jiménez,MEX,FW,28,1991,36.0,17,114,39,34.2,3.17,1.08,0.11,0.33,15.4,0,4,4,16.6,13.4,0.12,0.4,-0.4
+ENG-Premier League,1920,Wolves,Romain Saïss,MAR,DF,29,1990,30.1,2,24,8,33.3,0.8,0.27,0.08,0.25,13.1,2,0,0,3.4,3.4,0.14,-1.4,-1.4
+ENG-Premier League,1920,Wolves,Rui Patrício,POR,GK,31,1988,38.0,0,0,0,,0.0,0.0,,,,0,0,0,0.0,0.0,,0.0,0.0
+ENG-Premier League,1920,Wolves,Ryan Bennett,ENG,DF,29,1990,6.7,0,1,0,0.0,0.15,0.0,0.0,,10.8,0,0,0,0.1,0.1,0.05,-0.1,-0.1
+ENG-Premier League,1920,Wolves,Rúben Neves,POR,MF,22,1997,34.0,2,61,10,16.4,1.8,0.29,0.03,0.2,28.0,7,0,0,2.0,2.0,0.03,0.0,0.0
+ENG-Premier League,1920,Wolves,Rúben Vinagre,POR,"MF,DF",20,1999,7.2,0,5,0,0.0,0.69,0.0,0.0,,13.6,0,0,0,0.3,0.3,0.06,-0.3,-0.3
+ENG-Premier League,1920,Wolves,Willy Boly,CIV,DF,28,1991,22.0,0,5,3,60.0,0.23,0.14,0.0,0.0,11.6,0,0,0,0.4,0.4,0.09,-0.4,-0.4
