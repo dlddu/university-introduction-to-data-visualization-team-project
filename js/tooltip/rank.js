@@ -76,7 +76,7 @@ const statMetadata = {
       const assists = parseCsvFloat(standardRow["Ast"]);
       const matchesPlayed = parseCsvFloat(standardRow["MP"]);
       return [
-        assists / matchesPlayed,
+        matchesPlayed == 0 ? 0 : assists / matchesPlayed,
         standardRow[positionIndex].split(",")[0],
       ];
     },
@@ -105,6 +105,40 @@ const statMetadata = {
       }
     }
   ),
+  "Passes Completed/Passes Attempted": statMetadataObject(
+    (standardRow, defenseRow, passingRow, shootingRow) => {
+      const completed = parseCsvFloat(passingRow["Cmp"]);
+      const attempted = parseCsvFloat(passingRow["Att"]);
+      return [
+        attempted == 0 ? 0 : completed / attempted,
+        standardRow[positionIndex].split(",")[0],
+      ];
+    },
+    "#FFD700",
+    ([value, position]) => {
+      if (position == "FW" || position == "MF") {
+        if (value >= 0.763) return 1;
+        if (value >= 0.759) return 2;
+        if (value >= 0.755) return 3;
+        if (value >= 0.751) return 4;
+        if (value >= 0.747) return 5;
+        if (value >= 0.743) return 6;
+        if (value >= 0.739) return 7;
+        if (value >= 0.735) return 8;
+        return 9;
+      } else {
+        if (value >= 0.793) return 1;
+        if (value >= 0.788) return 2;
+        if (value >= 0.783) return 3;
+        if (value >= 0.778) return 4;
+        if (value >= 0.773) return 5;
+        if (value >= 0.768) return 6;
+        if (value >= 0.763) return 7;
+        if (value >= 0.758) return 8;
+        return 9;
+      }
+    }
+  ),
 };
 
 const positionToStat = {
@@ -113,20 +147,27 @@ const positionToStat = {
     "Shot on Target %",
     "Goals/Shot on Target",
     "Assists/Matches Played",
+    "Passes Completed/Passes Attempted",
   ],
   MF: [
     "Goals/Shot",
     "Shot on Target %",
     "Goals/Shot on Target",
     "Assists/Matches Played",
+    "Passes Completed/Passes Attempted",
   ],
   DF: [
     "Goals/Shot",
     "Shot on Target %",
     "Goals/Shot on Target",
     "Assists/Matches Played",
+    "Passes Completed/Passes Attempted",
   ],
-  GK: ["Goals/Shot", "Goals/Shot on Target"],
+  GK: [
+    "Goals/Shot",
+    "Goals/Shot on Target",
+    "Passes Completed/Passes Attempted",
+  ],
 };
 
 export const drawRank = (
