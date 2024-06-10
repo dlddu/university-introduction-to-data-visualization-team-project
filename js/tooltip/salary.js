@@ -27,14 +27,4 @@ export const drawSalary = (root, ageScale, data) => {
     .attr("width", ageScale.bandwidth())
     .attr("height", (d) => tooltipHeight - salaryScale(d[salaryIndex]))
     .attr("fill", "#69b3a2");
-
-  const mediumValue = (data[0][salaryIndex] + data[1][salaryIndex]) / 2;
-  const scaledMediumValue = salaryScale(mediumValue);
-  root
-    .append("rect")
-    .attr("x", ageScale(26))
-    .attr("y", scaledMediumValue)
-    .attr("width", ageScale.bandwidth())
-    .attr("height", (d) => tooltipHeight - scaledMediumValue)
-    .attr("fill", "#FFA500");
 };

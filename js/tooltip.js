@@ -60,19 +60,7 @@ function drawPlayerName(root, name) {
     .attr("y", -20);
 }
 
-// Age /////////////////////////////////////////////////////////////////////
-
-function drawTeamAxis(root, data) {
-  const teamScale = d3
-    .scaleBand()
-    .domain(data.map((d) => `${d[ageIndex]}<br>${d[teamIndex]}`))
-    .range([0, tooltipWidth])
-    .padding(0.2)
-    .paddingInner(0.2);
-
-  const teamAxis = d3.axisBottom(teamScale);
-  root.attr("transform", `translate(0, ${tooltipHeight})`).call(teamAxis);
-}
+// Axis /////////////////////////////////////////////////////////////////////
 
 function drawAgeAxis(root, ageScale, data) {
   const ageAxis = root
@@ -80,20 +68,19 @@ function drawAgeAxis(root, ageScale, data) {
     .call(d3.axisBottom(ageScale));
 
   // Render teams under age label
+  const ages = [...data.map((d) => d[ageIndex])];
   const teams = [...data.map((d) => d[teamIndex])];
-  const filledTeams = [
-    ...teams.slice(0, 1),
-    "",
-    ...teams.slice(1, teams.length),
-  ];
 
-  ageAxis.selectAll("text").each(function (_, i) {
+  ageAxis.selectAll("text").each(function () {
     d3.select(this.parentNode)
       .append("text")
       .attr("x", 0)
       .attr("y", 30)
       .attr("fill", "currentColor")
-      .text((_) => filledTeams[i]);
+      .text((age) => {
+        const index = ages.findIndex((d) => d === age);
+        return index != -1 ? teams[index] : "";
+      });
   });
 }
 
