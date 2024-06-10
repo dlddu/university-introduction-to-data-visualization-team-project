@@ -19,9 +19,21 @@ const svg = d3
   .append("g")
   .attr("transform", `translate(${chartMargin * 2}, ${chartMargin})`);
 
-const loadData = d3.csv("/data/sample.csv").then(convertStringDataToFloat);
+const loadedData = loadData();
 
-showChart(await loadData, 2022);
+showChart(await loadedData, 2022);
+
+async function loadData() {
+  const years = ["2019", "2021", "2022", "2023"];
+  let acc = [];
+  for (const year of years) {
+    const filepath = `/data/player_season_stats_${year}.csv`;
+    const read = await d3.csv(filepath);
+    acc = acc.concat(read);
+  }
+
+  return acc;
+}
 
 function showChart(loadData, year) {
   const data = loadData.filter((row) => row[yearIndex] == year);
@@ -112,7 +124,7 @@ function drawAgeAxis(root, ageScale) {
 
 function drawTeamAxis(root, teamScale) {
   const teamAxis = root
-    .attr("transform", `0, 0)`)
+    .attr("transform", `translate(0, 0)`)
     .call(d3.axisLeft(teamScale).tickSizeInner(-chartWidth));
   teamAxis.selectAll("path").style("stroke", "transparent");
   teamAxis.selectAll("line").style("stroke", "#EEEEEE");
