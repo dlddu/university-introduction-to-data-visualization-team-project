@@ -24,3 +24,17 @@ ID,Name,Year,Age,Rating,Salary,Team,Position
 5,Virgil van Dijk,2021,28,7.70,2500000,Liverpool,Center Back
 5,Virgil van Dijk,2022,29,7.90,3000000,Liverpool,Center Back
 5,Virgil van Dijk,2023,30,8.00,3500000,Liverpool,Center Back
+6,Player 1,2022,25,5,0,Manchester City,Striker
+7,Player 2,2022,26,5,0,Manchester City,Striker
+8,Player 3,2022,18,5,0,Manchester City,Center Back
+9,Player 4,2022,22,5,0,Manchester City,Striker
+10,Player 5,2022,25,5,0,Manchester City,Center Back
+11,Player 6,2022,33,5,0,Manchester City,Striker
+12,Player 7,2022,27,5,0,Manchester City,Center Back
+13,Player 8,2022,40,5,0,Manchester City,Goalkeeper
+14,Player 9,2022,26,5,0,Manchester City,Striker
+15,Player 10,2022,23,5,0,Manchester City,Striker
+16,Player 11,2022,40,5,0,Tottenham,Goalkeeper
+17,Player 12,2022,26,5,0,Tottenham,Striker
+18,Player 13,2022,23,5,0,Tottenham,Striker
+19,Player 14,2022,22,5,0,Tottenham,Striker

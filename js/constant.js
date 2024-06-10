@@ -28,3 +28,5 @@ export const positionToColor = {
   // ----------------
   Midfielder: "#df5e26",
 };
+
+export const boxScatteredPlotCircleRadius = 7;

@@ -7,6 +7,7 @@ import {
   ageIndex,
   positionIndex,
   positionToColor,
+  boxScatteredPlotCircleRadius,
 } from "../constant.js";
 import { showTooltip } from "../tooltip.js";
 
@@ -18,7 +19,7 @@ export const drawPlayer = (root, teamScale, ageScale, data) => {
     .data(data)
     .enter()
     .append("circle")
-    .attr("r", 7)
+    .attr("r", boxScatteredPlotCircleRadius)
     .attr("cx", (d) => ageScale(d[ageIndex]))
     .attr("cy", (d) => teamScale(d[teamIndex]) + teamScale.bandwidth() / 2)
     .attr("fill", (d) => positionToColor[d[positionIndex]]);

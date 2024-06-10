@@ -9,6 +9,7 @@ import {
   yearIndex,
 } from "./constant.js";
 import { drawPlayer } from "./box_plot/player.js";
+import { drawBoxPlot } from "./box_plot/box_plot.js";
 
 const svg = d3
   .select("body")
@@ -31,6 +32,23 @@ function showChart(loadData, year) {
   drawTeamAxis(svg.append("g"), teamScale);
 
   drawPlayer(svg.append("g"), teamScale, ageScale, data);
+  Array.from(new Set(data.map((d) => d[teamIndex]))).forEach((team) => {
+    {
+      const ages = Array.from(
+        new Set(
+          data.filter((d) => d[teamIndex] == team).map((d) => d[ageIndex])
+        )
+      );
+      if (ages.length < 5) return;
+      drawBoxPlot(
+        svg.append("g"),
+        data.filter((d) => d[teamIndex] == team).map((d) => d[ageIndex]),
+        ageScale,
+        teamScale,
+        team
+      );
+    }
+  });
 
   drawAgeAxisTitle(svg);
   drawTeamAxisTitle(svg);
@@ -66,7 +84,8 @@ function getAgeScale(data) {
   return d3
     .scaleLinear()
     .domain([extent[0] - padding, extent[1] + padding])
-    .range([0, chartWidth]);
+    .range([0, chartWidth])
+    .clamp(true);
 }
 
 function getTeamScale(data) {
