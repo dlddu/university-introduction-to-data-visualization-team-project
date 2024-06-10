@@ -1,27 +1,43 @@
 import {
-  idIndex,
   nameIndex,
   ageIndex,
   tooltipWidth,
   tooltipHeight,
   teamIndex,
+  nationIndex,
 } from "./common/constant.js";
-import { drawRating } from "./tooltip/rating.js";
-import { drawSalary } from "./tooltip/salary.js";
-import { loadData } from "./common/data_loader.js";
+import {
+  loadStandardData,
+  loadDefenseData,
+  loadPassingData,
+  loadShootingData,
+} from "./common/data_loader.js";
+import { drawRank } from "./tooltip/rank.js";
 
-export const showTooltip = async (root, deliveredData, playerId) => {
-  const data = deliveredData.filter((d) => d[idIndex] === playerId);
-  const ageScale = getAgeScale(data);
+export const showTooltip = async (root, data) => {
+  const name = data[nameIndex];
+  const nation = data[nationIndex];
 
-  drawAgeAxis(root.append("g"), ageScale, data);
-  drawSalary(root.append("g"), ageScale, data);
-  drawRating(root.append("g"), ageScale, data);
+  const standardData = await loadStandardData(name, nation);
+  const defenseData = await loadDefenseData(name, nation);
+  const passingData = await loadPassingData(name, nation);
+  const shootingData = await loadShootingData(name, nation);
+
+  const ageScale = getAgeScale(standardData);
+
+  drawAgeAxis(root.append("g"), ageScale, standardData);
+  drawRank(
+    root.append("g"),
+    ageScale,
+    standardData,
+    defenseData,
+    passingData,
+    shootingData
+  );
 
   drawAgeAxisTitle(root);
   drawRatingAxisTitle(root);
-  drawSalaryAxisTitle(root);
-  drawPlayerName(root, data[0][nameIndex]);
+  drawPlayerName(root, name);
 };
 
 // Title ///////////////////////////////////////////////////////////////////
@@ -37,15 +53,6 @@ function drawAgeAxisTitle(root) {
 
 function drawRatingAxisTitle(root) {
   root.append("text").text("Rating").attr("text-anchor", "end").attr("y", -20);
-}
-
-function drawSalaryAxisTitle(root) {
-  root
-    .append("text")
-    .text("Salary")
-    .attr("text-anchor", "end")
-    .attr("x", tooltipWidth + 50)
-    .attr("y", -20);
 }
 
 function drawPlayerName(root, name) {

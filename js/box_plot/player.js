@@ -35,7 +35,7 @@ export const drawPlayer = (root, data, ageScale, teamScale, positionScale) => {
         .append("g")
         .attr("transform", `translate(${tooltipMargin}, ${tooltipMargin})`);
 
-      showTooltip(tooltipRoot, data, d[idIndex]);
+      showTooltip(tooltipRoot, d);
     })
     .on("mousemove", (event) => {
       d3.select("#tooltip")

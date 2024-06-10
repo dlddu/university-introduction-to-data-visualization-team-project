@@ -44,7 +44,8 @@ function drawBox(root, data, ageScale, teamScale, team) {
     .attr("x2", ageScale(notOutlierMax))
     .attr("y1", yMiddle)
     .attr("y2", yMiddle)
-    .style("stroke", "black");
+    .style("stroke", "black")
+    .style("pointer-events", "none");
 
   // Draw box
   box
@@ -65,7 +66,8 @@ function drawBox(root, data, ageScale, teamScale, team) {
     .attr("x2", ageScale(median))
     .attr("y1", yBottom)
     .attr("y2", yTop)
-    .style("stroke", "black");
+    .style("stroke", "black")
+    .style("pointer-events", "none");
 
   // Draw min line
   box
@@ -74,7 +76,8 @@ function drawBox(root, data, ageScale, teamScale, team) {
     .attr("x2", ageScale(notOutlierMin))
     .attr("y1", yBottom)
     .attr("y2", yTop)
-    .style("stroke", "black");
+    .style("stroke", "black")
+    .style("pointer-events", "none");
 
   // Draw max line
   box
@@ -83,5 +86,6 @@ function drawBox(root, data, ageScale, teamScale, team) {
     .attr("x2", ageScale(notOutlierMax))
     .attr("y1", yBottom)
     .attr("y2", yTop)
-    .style("stroke", "black");
+    .style("stroke", "black")
+    .style("pointer-events", "none");
 }

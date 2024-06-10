@@ -6,6 +6,7 @@ export const ratingIndex = "Rating";
 export const salaryIndex = "Salary";
 export const teamIndex = "team";
 export const positionIndex = "pos";
+export const nationIndex = "nation";
 
 export const chartWidth = 700;
 export const chartHeight = 400;
