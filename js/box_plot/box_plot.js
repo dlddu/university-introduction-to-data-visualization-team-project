@@ -34,7 +34,8 @@ export const drawBoxPlot = (root, data, ageScale, teamScale, team) => {
     .attr("height", boxScatteredPlotCircleRadius * 2)
     .attr("fill", "white")
     .attr("fill-opacity", 0.7)
-    .attr("stroke", "black");
+    .attr("stroke", "black")
+    .style("pointer-events", "none");
 
   // Draw median line
   box
