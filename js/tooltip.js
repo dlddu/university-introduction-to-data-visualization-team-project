@@ -10,10 +10,8 @@ import { drawRating } from "./tooltip/rating.js";
 import { drawSalary } from "./tooltip/salary.js";
 import { loadData } from "./common/data_loader.js";
 
-const loadedData = loadData();
-
-export const showTooltip = async (root, playerId) => {
-  const data = (await loadedData).filter((d) => d[idIndex] === playerId);
+export const showTooltip = async (root, deliveredData, playerId) => {
+  const data = deliveredData.filter((d) => d[idIndex] === playerId);
   const ageScale = getAgeScale(data);
 
   drawAgeAxis(root.append("g"), ageScale, data);

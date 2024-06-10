@@ -4,41 +4,64 @@ import {
   chartHeight,
   chartMargin,
   teamIndex,
+  year,
 } from "./common/constant.js";
 import { drawPlayer } from "./box_plot/player.js";
 import { drawBoxPlot } from "./box_plot/box_plot.js";
 import { loadAllData, loadData } from "./common/data_loader.js";
 import { drawPositionLegend } from "./box_plot/position.js";
 
+const svg = d3
+  .select("body")
+  .append("svg")
+  .attr("width", chartWidth + chartMargin * 4)
+  .attr("height", chartHeight + chartMargin * 3)
+  .append("g")
+  .attr("transform", `translate(${chartMargin * 2}, ${chartMargin})`);
+
+drawSlider();
 showChart();
 
-function getSvg() {
-  return d3
-    .select("body")
-    .append("svg")
-    .attr("width", chartWidth + chartMargin * 4)
-    .attr("height", chartHeight + chartMargin * 2)
+function drawSlider() {
+  const slider = d3
+    .sliderBottom()
+    .min(2019)
+    .max(2023)
+    .marks([2019, 2021, 2022, 2023])
+    .width(300)
+    .tickFormat(d3.format("d"))
+    .tickValues(["2019", "2021", "2022", "2023"])
+    .on("onchange", () => {
+      year.value = slider.value();
+      showChart();
+    });
+
+  svg
     .append("g")
-    .attr("transform", `translate(${chartMargin * 2}, ${chartMargin})`);
+    .attr("transform", `translate(${-50}, ${chartHeight + chartMargin})`)
+    .attr("viewBox", [-20, -20, 340, 60])
+    .attr("width", 340)
+    .attr("height", 60)
+    .call(slider);
 }
 
 async function showChart() {
-  d3.select("body").selectAll("svg").remove();
-  const svg = getSvg();
+  svg.selectAll(".chart").remove();
+  const root = svg.append("g").attr("class", "chart");
   const data = await loadData();
   const ageScale = await getAgeScale();
   const teamScale = getTeamScale(data);
   const positionScale = getPositionScale();
 
-  drawAgeAxis(svg.append("g"), ageScale);
-  drawTeamAxis(svg.append("g"), teamScale);
+  drawAgeAxis(root.append("g"), ageScale);
+  drawTeamAxis(root.append("g"), teamScale);
 
-  drawPlayer(svg.append("g"), data, ageScale, teamScale, positionScale);
-  drawBoxPlot(svg.append("g"), data, ageScale, teamScale);
-  drawPositionLegend(svg.append("g"), positionScale, showChart);
+  drawPlayer(root.append("g"), data, ageScale, teamScale, positionScale);
+  drawBoxPlot(root.append("g"), data, ageScale, teamScale);
+  drawPositionLegend(root.append("g"), positionScale, showChart);
 
-  drawAgeAxisTitle(svg);
-  drawTeamAxisTitle(svg);
+  drawAgeAxisTitle(root);
+  drawTeamAxisTitle(root);
 }
 
 // Title ///////////////////////////////////////////////////////////////////

@@ -30,5 +30,5 @@ export const positionFlags = {
   GK: true,
 };
 export const year = {
-  value: 2022,
+  value: 2019,
 };
