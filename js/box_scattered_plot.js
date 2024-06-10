@@ -4,26 +4,29 @@ import {
   chartHeight,
   chartMargin,
   teamIndex,
-  yearIndex,
-  yearToSeason,
 } from "./common/constant.js";
 import { drawPlayer } from "./box_plot/player.js";
 import { drawBoxPlot } from "./box_plot/box_plot.js";
-import { loadData } from "./common/data_loader.js";
+import { loadAllData, loadData } from "./common/data_loader.js";
+import { drawPositionLegend } from "./box_plot/position.js";
 
-const svg = d3
-  .select("body")
-  .append("svg")
-  .attr("width", chartWidth + chartMargin * 4)
-  .attr("height", chartHeight + chartMargin * 2)
-  .append("g")
-  .attr("transform", `translate(${chartMargin * 2}, ${chartMargin})`);
+showChart();
 
-showChart(await loadData(), 2022);
+function getSvg() {
+  return d3
+    .select("body")
+    .append("svg")
+    .attr("width", chartWidth + chartMargin * 4)
+    .attr("height", chartHeight + chartMargin * 2)
+    .append("g")
+    .attr("transform", `translate(${chartMargin * 2}, ${chartMargin})`);
+}
 
-function showChart(loadedData, year) {
-  const data = loadedData.filter((row) => row[yearIndex] == yearToSeason[year]);
-  const ageScale = getAgeScale(data);
+async function showChart() {
+  d3.select("body").selectAll("svg").remove();
+  const svg = getSvg();
+  const data = await loadData();
+  const ageScale = await getAgeScale();
   const teamScale = getTeamScale(data);
   const positionScale = getPositionScale();
 
@@ -32,6 +35,7 @@ function showChart(loadedData, year) {
 
   drawPlayer(svg.append("g"), data, ageScale, teamScale, positionScale);
   drawBoxPlot(svg.append("g"), data, ageScale, teamScale);
+  drawPositionLegend(svg.append("g"), positionScale, showChart);
 
   drawAgeAxisTitle(svg);
   drawTeamAxisTitle(svg);
@@ -59,8 +63,9 @@ function drawTeamAxisTitle(root) {
 
 // Axis /////////////////////////////////////////////////////////////////////
 
-function getAgeScale(data) {
-  const extent = d3.extent(data.map((d) => d[ageIndex]));
+async function getAgeScale() {
+  const allData = await loadAllData();
+  const extent = d3.extent(allData.map((d) => d[ageIndex]));
   const gap = extent[1] - extent[0];
   const padding = Math.ceil(gap * 0.03);
 

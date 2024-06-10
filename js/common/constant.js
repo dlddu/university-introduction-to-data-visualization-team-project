@@ -23,3 +23,12 @@ export const yearToSeason = {
   2022: "2223",
   2023: "2324",
 };
+export const positionFlags = {
+  FW: true,
+  MF: true,
+  DF: true,
+  GK: true,
+};
+export const year = {
+  value: 2022,
+};
